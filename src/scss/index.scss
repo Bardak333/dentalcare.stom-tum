@@ -1,4 +1,18 @@
-@use './desktop/body/body.scss';
-@use './desktop/container/container.scss';
-@use './desktop/header/fringe.scss';
-@use './desktop/header/header.scss';
+@use '/src/assets/fonts/fonts.scss';
+
+@use './mobile/body/body.scss';
+
+@use './mobile/container/container.scss';
+@use './mobile/header/fringe.scss';
+@use './mobile/header/header.scss';
+@use './mobile/header/btns/header__phoneBtn.scss';
+@use './mobile/header/btns/header__menuBtn.scss';
+
+@use './mobile/header/address/address_content.scss';
+@use './mobile/header/address/btn/address_btn.scss';
+
+@use './mobile/header/application/application_content.scss';
+@use './mobile/header/application/btn/application_btn.scss';
+
+@use './mobile/header/block/header_block.scss';
+@use './mobile/header/block/header_links.scss';

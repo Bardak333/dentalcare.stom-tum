@@ -1,0 +1,38 @@
+.fringe {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    position: relative;
+
+    background-image: url(/src/assets/svg/fringe.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 250px;
+    width: 100%;
+
+    &__logo {
+        position: absolute;
+        top: 5px;
+        background-color: rgba(255, 255, 255, 0);
+    }
+}
+
+@media screen and (min-width: 1194px) {
+    .fringe {
+        
+        background-image: url(/src/assets/svg/fringe_laptop.svg);
+        max-width: 605px;
+        margin-top: -50px;
+        
+
+        &__logo {
+            display: none;
+        }
+    }
+}
+
+
+
+

@@ -1,0 +1,20 @@
+.header__phoneBtn {
+    width: 44px;
+    height: 44px;
+    background-color: #F7F6FB;
+    border: none;
+    border-radius: 12px;
+    background-image: url(/src/assets/svg/phone.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 18px;
+    margin-top: auto;
+    cursor: pointer;
+    transform: translateY(5px);
+}
+
+@media screen and (min-width: 1194px) {
+    .header__phoneBtn {
+        display: none;
+    }
+}

@@ -1,0 +1,68 @@
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #ffffff00;
+
+    &__content {
+        padding: 0 10px;
+        padding-bottom: 10px;
+        background-color: #ffffff8c; 
+        border-radius: 12px 12px 0 0;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        backdrop-filter: blur(10px);
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    &__container {
+        padding: 0 16px;
+        padding-bottom: 10px;
+        background-color: #ffffff00;
+        
+    }
+}
+
+@media screen and (min-width: 1194px) {
+    .header {
+
+    &__content {
+        padding: 20px;
+        padding-bottom: 5px;
+        max-width: 1162px;
+    }
+}
+}
+
+.roundedSquare_left {
+    background-image: url(/src/assets/svg/rounded_square.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 22px;
+    height: 22px;
+    background-color: #ffffff00;
+    position: absolute;
+    z-index: 100;
+    left: -1px;
+    top: 0;
+}
+
+.roundedSquare_right {
+    background-image: url(/src/assets/svg/rounded_square.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 22px;
+    height: 22px;
+    background-color: #ffffff00;
+    position: absolute;
+    z-index: 100;
+    right: -1px;
+    top: 0;
+    transform: rotate(90deg);
+}
+

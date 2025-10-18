@@ -1,0 +1,19 @@
+.header__application {
+    &_btn {
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 12px;
+        letter-spacing: -0.5px;
+        vertical-align: middle;
+
+        padding: 12px 68px;
+        background-color: #22833F;
+        border: none;
+        border-radius: 25px;
+        color: #FFF;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+}

@@ -1,0 +1,21 @@
+.header__menuBtn {
+    width: 44px;
+    height: 44px;
+    background-color: #F7F6FB;
+    border: none;
+    border-radius: 12px;
+    background-image: url(/src/assets/svg/strokes.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 16px 14px;
+    margin-top: auto;
+    cursor: pointer;
+    display: block;
+    transform: translateY(5px);
+}
+
+@media screen and (min-width: 1194px) {
+    .header__menuBtn {
+        display: none;
+    }
+}

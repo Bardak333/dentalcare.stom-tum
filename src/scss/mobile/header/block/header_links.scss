@@ -1,0 +1,36 @@
+.header__link {
+    background-color: rgba(255, 255, 255, 0);
+
+    &_vk {
+        width: 16px;
+        height: 16px;
+        background-image: url(/src/assets/svg/messangers/vk.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 16px;
+        border-radius: 50%;
+    }
+    
+    &_tg {
+        width: 16px;
+        height: 16px;
+        background-image: url(/src/assets/svg/messangers/tg.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 16px;
+        border-radius: 50%;
+    }
+    
+    &_whatsapp {
+        width: 16px;
+        height: 16px;
+        background-image: url(/src/assets/svg/messangers/whatsapp.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 16px;
+        border-radius: 50%;
+    }
+
+    
+}
+

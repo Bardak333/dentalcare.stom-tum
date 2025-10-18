@@ -1,0 +1,42 @@
+.header__block {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0);
+
+    &_links {
+        display: flex;
+        list-style-type: none;
+        gap: 12px;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    &_item {
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    &_times {
+        display: flex;
+        gap: 8px;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    &_time {
+        width: 16px;
+        height: 16px;
+        background-image: url(/src/assets/svg/watch.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    &_text {
+        font-family: "Noto Sans";
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 11px;
+        letter-spacing: -0.5px;
+        vertical-align: middle;
+        background-color: rgba(255, 255, 255, 0);
+    }
+}

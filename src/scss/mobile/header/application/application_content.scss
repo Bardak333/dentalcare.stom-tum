@@ -1,0 +1,22 @@
+.header__application {
+    display: none;
+}
+
+@media screen and (min-width: 1194px) {
+    .header__application {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        background-color: rgba(255, 255, 255, 0);
+
+        &_phoneIcon {
+            width: 16px;
+            height: 16px;
+            background-image: url(/src/assets/svg/phone_white.svg);
+            background-color: rgba(255, 255, 255, 0);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+    }
+}
