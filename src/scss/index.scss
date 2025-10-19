@@ -16,3 +16,6 @@
 
 @use './mobile/header/block/header_block.scss';
 @use './mobile/header/block/header_links.scss';
+
+@use './mobile/header/nav/header__nav.scss';
+@use './mobile/header/nav/btns/header__nav_btn.scss';

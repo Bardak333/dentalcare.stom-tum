@@ -30,7 +30,28 @@
         background-size: 16px;
         border-radius: 50%;
     }
+}
 
-    
+@media screen and (min-width: 1672px) {
+    .header__link {
+
+        &_vk {
+            width: 24px;
+            height: 24px;
+            background-size: 24px;
+        }
+
+        &_tg {
+            width: 24px;
+            height: 24px;
+            background-size: 24px;
+        }
+
+        &_whatsapp {
+            width: 24px;
+            height: 24px;
+            background-size: 24px;
+        }
+    }
 }
 

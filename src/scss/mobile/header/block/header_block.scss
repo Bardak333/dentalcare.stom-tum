@@ -38,5 +38,27 @@
         letter-spacing: -0.5px;
         vertical-align: middle;
         background-color: rgba(255, 255, 255, 0);
+        color: #2D2D2D;
+    }
+}
+
+@media screen and (min-width: 1672px) {
+    .header__block {
+
+        gap: 16px;
+        align-items: center;
+
+        &_text {
+            font-size: 14px;
+        }
+
+        &_time {
+            height: 18px;
+            width: 18px;
+        }
+
+        &_links {
+            gap: 16px;
+        }
     }
 }

@@ -20,3 +20,12 @@
         }
     }
 }
+
+@media screen and (min-width: 1672px) {
+    .header__application {
+        flex-direction: row;
+        flex-flow: row-reverse;
+        margin-bottom: 39px;
+        transform: translateY(10px);
+    }
+}

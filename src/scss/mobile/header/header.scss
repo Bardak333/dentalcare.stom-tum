@@ -28,13 +28,22 @@
 
 @media screen and (min-width: 1194px) {
     .header {
-
-    &__content {
-        padding: 20px;
-        padding-bottom: 5px;
-        max-width: 1162px;
+        &__content {
+            padding: 20px;
+            padding-bottom: 5px;
+            max-width: 1162px;
+        }
     }
 }
+
+@media screen and (min-width: 1672px) {
+    .header {
+        &__content {
+            padding: 20px;
+            padding-bottom: 5px;
+            max-width: 1640px;
+        }
+    }
 }
 
 .roundedSquare_left {
