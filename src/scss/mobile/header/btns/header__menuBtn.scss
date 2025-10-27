@@ -7,15 +7,21 @@
     background-image: url(/src/assets/svg/strokes.svg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 16px 14px;
+    background-size: 24px;
     margin-top: auto;
     cursor: pointer;
     display: block;
     transform: translateY(5px);
+    transition: all 0.2s ease-in-out;
 }
 
 @media screen and (min-width: 1194px) {
     .header__menuBtn {
         display: none;
     }
+}
+
+.header__menuBtn-open {
+    background-image: url(/src/assets/svg/btns/close-icon.svg);
+    background-size: 24px;
 }

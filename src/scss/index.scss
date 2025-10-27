@@ -10,6 +10,7 @@
 
 @use './mobile/header/address/address_content.scss';
 @use './mobile/header/address/btn/address_btn.scss';
+@use './mobile/header/address/btn/openList-btn';
 
 @use './mobile/header/application/application_content.scss';
 @use './mobile/header/application/btn/application_btn.scss';
@@ -19,3 +20,10 @@
 
 @use './mobile/header/nav/header__nav.scss';
 @use './mobile/header/nav/btns/header__nav_btn.scss';
+
+@use './mobile/header/address/address__openList.scss';
+
+@use './mobile/header/__mobileMenu/_mobileMenu';
+@use './mobile/header/__mobileMenu/_address/address';
+@use './mobile/header/__mobileMenu/__nav/_nav';
+@use './mobile/header/__mobileMenu/_application/application';

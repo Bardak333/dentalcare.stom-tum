@@ -1,6 +1,7 @@
 .header__address {
 
     display: none;
+    z-index: 999;
 
     &_logo {
     width: 230px;
@@ -46,13 +47,18 @@
         width: 234px;
         position: absolute;
         background-color: rgba(255, 255, 255, 0.5490196078);
-        transform: translateY(25px);
+        transform: translateY(-200%);
+        position: absolute;
+        top: 30px;
         padding: 16px;
         display: flex;
         flex-direction: column;
         gap: 16px;
         border-radius: 25px;
         box-shadow: 0px 12px 18px 0px #0000001A;
+        transition: all 0.4s ease-in-out;
+        opacity: 0;
+        z-index: 997;
     }
 
     &_item {
