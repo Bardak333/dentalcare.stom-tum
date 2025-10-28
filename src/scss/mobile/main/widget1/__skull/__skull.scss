@@ -8,6 +8,7 @@
     background-size: contain;
     background-color: #ffffff00;
     position: relative;
+    
 
     &_component1 {
 
@@ -28,6 +29,19 @@
         top: -6px;
     }
 
+    @media screen and (min-width: 1672px) {
+        
+        &_component1 {
+
+            top: 10px;
+            padding: 10px;
+            padding-right: 26px;
+            width: 322px;
+            height: 52px;
+            background-image: url(/src/assets/svg/skullComponent_desktop_left.svg);
+        }
+    }
+
     &_component2 {
 
         width: 203px;
@@ -46,6 +60,19 @@
         bottom: -22px;
     }
 
+    @media screen and (min-width: 1672px) {
+        
+        &_component2 {
+
+            bottom: 40px;
+            padding: 10px;
+            padding-left: 35px;
+            width: 322px;
+            height: 52px;
+            background-image: url(/src/assets/svg/skullComponent_desktop_right.svg);
+        }
+    }
+
     &_teeth {
 
         width: 12px;
@@ -55,7 +82,15 @@
         background-position: center center;
         background-repeat: no-repeat;
         background-size: contain;
-        
+    }
+
+    @media screen and (min-width: 1672px) {
+
+        &_teeth {
+
+            width: 18px;
+            height: 18px;
+        }
     }
 
     &_text {
@@ -67,5 +102,33 @@
         line-height: 32px;
         vertical-align: middle;
     }
+
+    @media screen and (min-width: 1672px) {
     
+        &_text {
+
+            font-size: 24px;
+        }
+    }
+}
+
+@media screen and (min-width: 1194px) {
+    
+    .widget1__skull {
+
+        transform: translateY(-35px) translateX(35px);
+    }
+}
+
+ @media screen and (min-width: 1672px) {
+    
+    .widget1__skull {
+
+        transform: translateY(0) translateX(0);
+        position: absolute;
+        width: 800px;
+        height: 300px;
+        top: 200px;
+        
+    }
 }

@@ -38,9 +38,17 @@
     .main__applicationBtn {
 
         position: absolute;
-        bottom: 78px;
+        bottom: 0;
         max-width: 512px;
         width: 100%;
+    }
+} 
+    
+@media screen and (min-width: 1672px) {
+
+    .main__applicationBtn {
+
+        padding: 35px 0;
     }
     
 }

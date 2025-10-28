@@ -16,6 +16,15 @@
         right: -26px;
     }
 
+    @media screen and (min-width: 1194px) {
+    
+        &_phoneBtn {
+
+            display: none;
+        }
+
+    }
+
     &_phoneIcon {
 
         width: 22px;

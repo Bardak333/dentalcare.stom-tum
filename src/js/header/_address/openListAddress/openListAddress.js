@@ -19,6 +19,7 @@ function openListAddress () {
 
     }
     else {
+        
         if (headerAddressList.classList.contains('address__openList_desktop')) {
 
             headerAddressList.classList.remove('address__openList_desktop');
