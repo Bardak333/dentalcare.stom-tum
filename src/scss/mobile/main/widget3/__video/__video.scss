@@ -1,0 +1,21 @@
+.widget3__video {
+
+    width: 341px;
+    height: 514px;
+    background-image: url(/src/assets/png/video_icon.png);
+    background-position: -150px center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+
+}
+
+@media screen and (min-width: 1194px) {
+
+    .widget3__video {
+
+        width: 200px;
+        height: 434px;
+    }
+        
+}

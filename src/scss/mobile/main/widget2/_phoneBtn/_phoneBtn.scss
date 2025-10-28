@@ -1,0 +1,30 @@
+.main__widget2 {
+
+    &_phoneBtn {
+
+        width: 62px;
+        height: 46px;
+        background-color: #22833F;
+        padding: 12px 16px;
+        box-shadow: 0px 4px 12px 0px #00000040;
+        border-radius: 25px 0 0 25px;
+        border: none;
+
+        position: absolute;
+        z-index: 100;
+        top: -85px;
+        right: -26px;
+    }
+
+    &_phoneIcon {
+
+        width: 22px;
+        height: 22px;
+        background-image: url(/src/assets/svg/phone_white.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #00000000;
+    }
+
+}

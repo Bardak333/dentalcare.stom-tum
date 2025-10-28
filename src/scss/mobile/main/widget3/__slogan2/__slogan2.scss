@@ -1,0 +1,75 @@
+.widget3__slogan {
+
+    display: flex;
+    padding: 14px 12px;
+    box-shadow: 0px 8px 18px 0px #0000001A;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    gap: 8px;
+    transform: translateY(-18px);
+    
+    &_text {
+
+        margin-left: auto;
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        vertical-align: middle;
+        background-color: #ffffff00;
+        max-width: 249px;
+    }
+
+    &_text-bold {
+
+        font-weight: 700;
+        background-color: #ffffff00;
+    }
+
+    &_statue {
+
+        width: 60px;
+        height: 60px;
+        background-image: url(/src/assets/svg/statue.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+    }
+
+    &_statueUp {
+
+        width: 27px;
+        height: 73px;
+        background-image: url(/src/assets/svg/statueUp.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #ffffff00;
+        position: absolute;
+        left: 16px;
+        top: -25px;
+    }
+
+    &_rayStatue {
+
+        width: 40px;
+        height: 24px;
+        background-image: url(/src/assets/svg/rayOfStatue.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #ffffff00;
+        position: absolute;
+        top: 22px;
+    }
+}
+
+@media screen and (min-width: 1194px) {
+    
+    .widget3__slogan {
+
+        transform: translateY(-60px) translateX(-40px);
+    }
+}

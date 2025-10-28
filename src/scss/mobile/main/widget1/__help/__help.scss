@@ -1,0 +1,70 @@
+.widget1__help {
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #ffffff;
+
+    &_text1 {
+
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 22px;
+        line-height: 24px;
+        background-color: #ffffff00;
+    }
+
+    @media screen and (min-width: 1194px) {
+
+        &_text1 {
+
+            font-size: 24px;
+        }
+    }
+
+    &_list {
+
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        background-color: #ffffff00;
+    }
+
+    &_item {
+
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        background-color: #ffffff00;
+    }
+
+    &_radio {
+
+        width: 16px;
+        height: 16px;
+        background-image: url(/src/assets/svg/radio.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #ffffff00;
+    }
+
+    &_text2 {
+
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.25px;
+        background-color: #ffffff00;
+    }
+
+    @media screen and (min-width: 1194px) {
+
+        &_text2 {
+
+            font-size: 16px;
+        }
+    }
+}

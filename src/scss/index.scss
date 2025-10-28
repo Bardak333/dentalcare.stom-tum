@@ -27,3 +27,20 @@
 @use './mobile/header/__mobileMenu/_address/address';
 @use './mobile/header/__mobileMenu/__nav/_nav';
 @use './mobile/header/__mobileMenu/_application/application';
+
+@use './mobile/main/main.scss';
+@use './mobile/main/widget1/__slogan/_slogan';
+@use './mobile/main/widget1/__help/_help';
+@use './mobile/main/widget1/__skull/_skull';
+
+@use './mobile/main/widget2/widget2.scss';
+@use './mobile/main/widget2/__sale/_sale';
+@use './mobile/main/widget2/_phoneBtn/phoneBtn';
+@use './mobile/main/widget2/__phone/_phone';
+@use './mobile/main/widget2/__stoke/_stoke';
+
+@use './mobile/main/widget3/widget3.scss';
+@use './mobile/main/widget3/__video/_video';
+@use './mobile/main/widget3/__slogan2/_slogan2';
+
+@use './mobile/main/applicationBtn/main__applicationBtn.scss';

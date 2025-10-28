@@ -1,0 +1,71 @@
+.widget1__skull {
+
+    width: 280;
+    height: 210px;
+    background-image: url(/src/assets/png/skull_widget1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #ffffff00;
+    position: relative;
+
+    &_component1 {
+
+        width: 203px;
+        height: 44px;
+        background-image: url(/src/assets/svg/skullConponent_left.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #ffffff00;
+        display: flex;
+        padding: 6px;
+        padding-right: 11px;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        top: -6px;
+    }
+
+    &_component2 {
+
+        width: 203px;
+        height: 44px;
+        background-image: url(/src/assets/svg/skullConponent_right.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #ffffff00;
+        display: flex;
+        padding: 6px;
+        padding-left: 16px;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        bottom: -22px;
+    }
+
+    &_teeth {
+
+        width: 12px;
+        height: 12px;
+        background-color: #ffffff00;
+        background-image: url(/src/assets/svg/tooth.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+    }
+
+    &_text {
+
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        line-height: 32px;
+        vertical-align: middle;
+    }
+    
+}

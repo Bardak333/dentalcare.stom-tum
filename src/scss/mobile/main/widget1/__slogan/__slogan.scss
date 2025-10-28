@@ -1,0 +1,54 @@
+.widget1__slogan {
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #ffffff;
+
+    &_main {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        background-color: #ffffff;
+    }
+
+    &_text1 {
+
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: -1px;
+        vertical-align: middle;
+        color: #5CC37B;
+        background-color: #ffffff00;
+    }
+
+    @media screen and (min-width: 1194px) {
+
+        &_text1 {
+
+            font-size: 36px;
+        }
+    }
+
+    &_text2 {
+
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: -1px;
+        vertical-align: middle;
+        color: #22833F;
+        background-color: #ffffff00;
+    }
+
+    @media screen and (min-width: 1194px) {
+
+        &_text2 {
+
+            font-size: 36px;
+        }
+    }
+}

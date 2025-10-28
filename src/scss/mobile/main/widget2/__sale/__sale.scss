@@ -1,0 +1,141 @@
+.widget2__sale {
+
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    padding: 12px;
+    background-color: #5CC37B;
+    border-radius: 16px;
+    position: relative;
+
+    &_textContainer1 {
+
+        display: flex;
+        gap: 9px;
+        background-color: #5CC37B;
+    }
+
+    &_text1-big {
+
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 36px;
+        letter-spacing: 0px;
+        vertical-align: middle;
+        color: #FFF;
+        background-color: #5CC37B;
+    }
+
+    &_text1-small {
+
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 20px;
+        line-height: 16px;
+        letter-spacing: -2px;
+        color: #FFF;
+        background-color: #5CC37B;
+    }
+
+    &_textContainer2 {
+
+        display: flex;
+        gap: 6px;
+        background-color: #5CC37B;
+
+    }
+
+    &_text2 {
+
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        vertical-align: middle;
+        color: #FFF;
+        background-color: #5CC37B;
+    }
+
+    &_text2-opacity {
+
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        vertical-align: middle;
+        text-decoration: line-through;
+        color: #FFFFFF99;
+        background-color: #5CC37B;
+        text-align: center;
+    }
+
+    &_application {
+
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        background-color: #5CC37B;
+    }
+
+    &_btn {
+
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 10px;
+        padding-right: 16px;
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.5px;
+        vertical-align: middle;
+        background-color: #FFFFFF;
+        border-radius: 16px;
+        border: none;
+        text-wrap: nowrap;
+
+    }
+
+    &_btnIcon {
+
+        width: 36px;
+        height: 36px;
+        background-image: url(/src/assets/svg/btns/lightning.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: #ffffff00;
+    }
+
+    &_application-text {
+
+        font-family: "Noto Sans", sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        vertical-align: middle;
+        color: #FFFFFF99;
+        background-color: #5CC37B;
+    }
+
+    &_implant {
+
+        width: 104px;
+        height: 173px;
+        background-color: #ffffff00;
+        background-image: url(/src/assets/png/implants.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        right: 12px;
+        bottom: 98px;
+    }
+}

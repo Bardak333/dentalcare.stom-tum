@@ -1,0 +1,46 @@
+.main__applicationBtn {
+
+    padding: 28px 0;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+    background-color: #685DF9;
+    margin: 0 -10px;
+    border: none;
+    border-radius: 0 32px 0 16px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    vertical-align: middle;
+    color: #FFF;
+
+    &_icon {
+
+        width: 36px;
+        height: 36px;
+        background-color: #FFFFFF26;
+        background-image: url(/src/assets/svg/btns/arrow_right.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 24px;
+        border-radius: 8px;
+
+    }
+
+}
+
+@media screen and (min-width: 1194px) {
+
+    .main__applicationBtn {
+
+        position: absolute;
+        bottom: 78px;
+        max-width: 512px;
+        width: 100%;
+    }
+    
+}

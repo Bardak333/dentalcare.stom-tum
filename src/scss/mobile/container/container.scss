@@ -3,3 +3,12 @@
     margin: 0 auto;
     max-width: 500px;
 }
+
+@media screen and (min-width: 1194px) {
+
+    .container {
+        
+        max-width: 1200px;
+    }
+    
+}
