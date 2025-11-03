@@ -1,0 +1,46 @@
+.help__certificate {
+
+  background-color: #f7f6fb;
+  padding-top: 425px;
+  overflow: hidden;
+  justify-content: center;
+
+  &_container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-image: url('/src/assets/png/help/certificate_rack.png');
+    width: 598px;
+    height: 139px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &_item {
+
+    background-image: url('/src/assets/png/help/certificate_main.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 278px;
+    height: 482px;
+    position: absolute;
+    left: 160px;
+    top: -390px;
+    background-color: #ffffff00;
+  }
+
+  &_star {
+
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0 8px 18px 0 #0000001A;
+  }
+
+  &_widget {
+    display: flex;
+    align-items: center;
+    position: absolute;
+  }
+}

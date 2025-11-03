@@ -23,10 +23,10 @@
 
 @use './mobile/header/address/address__openList.scss';
 
-@use './mobile/header/__mobileMenu/_mobileMenu';
-@use './mobile/header/__mobileMenu/_address/address';
-@use './mobile/header/__mobileMenu/__nav/_nav';
-@use './mobile/header/__mobileMenu/_application/application';
+@use 'mobile/header/__mobileMenu/_mobileMenu';
+@use 'mobile/header/__mobileMenu/_address/address';
+@use 'mobile/header/__mobileMenu/_nav/nav';
+@use 'mobile/header/__mobileMenu/_application/application';
 
 @use './mobile/main/main.scss';
 @use './mobile/main/widget1/main__widget1.scss';
@@ -44,4 +44,9 @@
 @use './mobile/main/widget3/__video/_video';
 @use './mobile/main/widget3/__slogan2/_slogan2';
 
-@use './mobile/main/applicationBtn/main__applicationBtn.scss';
+@use './mobile/main/applicationBtn/main__applicationBtn';
+
+@use './mobile/help/help' as mobile;
+@use './mobile/help/__title/__title.scss';
+@use './mobile/help/__items/_items.scss';
+@use './mobile/help/__certificate/_certificate.scss';

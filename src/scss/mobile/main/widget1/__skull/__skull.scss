@@ -1,13 +1,16 @@
 .widget1__skull {
 
-    width: 280;
-    height: 210px;
-    background-image: url(/src/assets/png/skull_widget1.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color: #ffffff00;
-    position: relative;
+  width: 280px;
+  height: 210px;
+  background-image: url(/src/assets/png/skull_widget1.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #ffffff00;
+  position: relative;
+  margin: 0 auto;
+  transform: translateY(20px);
+  z-index: 1;
     
 
     &_component1 {
@@ -20,8 +23,7 @@
         background-size: contain;
         background-color: #ffffff00;
         display: flex;
-        padding: 6px;
-        padding-right: 11px;
+        padding: 6px 11px 6px 6px;
         justify-content: space-between;
         align-items: center;
         position: absolute;
@@ -34,8 +36,7 @@
         &_component1 {
 
             top: 10px;
-            padding: 10px;
-            padding-right: 26px;
+            padding: 10px 26px 10px 10px;
             width: 322px;
             height: 52px;
             background-image: url(/src/assets/svg/skullComponent_desktop_left.svg);
@@ -52,8 +53,7 @@
         background-size: contain;
         background-color: #ffffff00;
         display: flex;
-        padding: 6px;
-        padding-left: 16px;
+        padding: 6px 6px 6px 16px;
         justify-content: space-between;
         align-items: center;
         position: absolute;
@@ -64,12 +64,11 @@
         
         &_component2 {
 
-            bottom: 40px;
-            padding: 10px;
-            padding-left: 35px;
-            width: 322px;
-            height: 52px;
-            background-image: url(/src/assets/svg/skullComponent_desktop_right.svg);
+          bottom: 40px;
+          padding: 10px 10px 10px 35px;
+          width: 322px;
+          height: 52px;
+          background-image: url(/src/assets/svg/skullComponent_desktop_right.svg);
         }
     }
 
@@ -97,7 +96,6 @@
 
         font-family: "Noto Sans", sans-serif;
         font-weight: 500;
-        font-style: Medium;
         font-size: 16px;
         line-height: 32px;
         vertical-align: middle;
@@ -124,7 +122,7 @@
     
     .widget1__skull {
 
-        transform: translateY(0) translateX(0);
+        transform: translateY(50px) translateX(0);
         position: absolute;
         width: 800px;
         height: 300px;

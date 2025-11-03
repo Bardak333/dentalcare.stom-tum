@@ -12,6 +12,14 @@
 
     .main__widget3 {
 
-        order: 0;
+      order: 0;
+    }
+}
+
+@media screen and (min-width: 1672px) {
+
+    .main__widget3 {
+
+      transform: translateX(60px);
     }
 }

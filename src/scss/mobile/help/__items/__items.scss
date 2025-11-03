@@ -1,0 +1,82 @@
+.help__items {
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+}
+
+.help__item {
+
+  display: flex;
+  gap: 16px;
+  padding: 12px;
+  background-color: #FFFFFF;
+  box-shadow: 0 8px 18px 0 #0000001A;
+  border-radius: 16px;
+  align-items: center;
+
+  &_icon1 {
+
+    width: 80px;
+    height: 80px;
+    background-image: url("/src/assets/png/help/item1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &_icon2 {
+
+    width: 80px;
+    height: 80px;
+    background-image: url("/src/assets/png/help/item2.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &_icon3 {
+
+    width: 80px;
+    height: 80px;
+    background-image: url("/src/assets/png/help/item3.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &_textContainer {
+
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-width: 241px;
+    background-color: rgba(255,255,255,0);
+  }
+
+  &_text-title {
+
+    color: #2D2D2D;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0;
+    vertical-align: middle;
+    background-color: rgba(255,255,255,0);
+  }
+
+  &_text-description {
+
+    color: #2D2D2D;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    vertical-align: middle;
+    background-color: rgba(255,255,255,0);
+
+  }
+}

@@ -1,0 +1,13 @@
+.help {
+
+  background-color: #f7f6fb;
+  padding: 80px 0;
+  overflow: hidden;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+}
