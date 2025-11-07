@@ -1,0 +1,46 @@
+@use './_img/img';
+@use './_title/title';
+@use './_btn/btn';
+@use './_div/div';
+
+.faq{
+    background-color: rgba(247, 246, 251, 1);
+
+    &__content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px 0px;
+    }
+
+    &__block{
+        display: grid;
+        width: 1162px;
+        height: auto;
+        border-radius: 16px;
+        padding: 16px;
+        gap: 16px;
+        background: radial-gradient(75.94% 81.81% at 21.47% 26.7%, #5CC37B 0%, #52D97A 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+        grid-template-columns: auto 1fr auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+        "text text img"
+        "btn div img";
+    }
+}
+
+
+@media (max-width: 1194px) {
+    .faq{
+        &__block{
+            width: 706px;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto auto auto;
+            grid-template-areas: 
+            "img"
+            "text"
+            "btn"
+            "div";
+        }
+    }
+}

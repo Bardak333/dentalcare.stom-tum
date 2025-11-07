@@ -1,0 +1,38 @@
+.qwizRequest{
+  &__title{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: rgba(42, 42, 42, 1);
+  }
+
+  &__text{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: rgba(42, 42, 42, 1);
+    text-align: center;
+  }
+
+  &__form--text{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: rgba(42, 42, 42, 1);
+  }
+
+  &__form--toggle-text{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: rgba(42, 42, 42, 1);
+  }
+}

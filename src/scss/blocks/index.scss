@@ -1,0 +1,45 @@
+@use './quiz/_quiz.scss' as *;
+@use './quiz/_title/_title.scss' as *;
+
+@use './quiz/_text/_text.scss' as *;
+
+@use './quiz/_pagination/_pagination.scss' as *;
+
+@use './quiz/_question/_question.scss' as *;
+
+@use './quiz/_question/_answers/_answers.scss' as *;
+
+@use './quiz/_nav/_nav.scss' as *;
+
+@use './quiz/_qwizRequest/_qwizRequest.scss' as *;
+@use './quiz/_qwizRequest/_btn/_btn.scss' as *;
+@use './quiz/_qwizRequest/_form/_form.scss' as *;
+@use './quiz/_qwizRequest/_text/_text.scss' as *;
+@use './quiz/_qwizRequest/_toggle/_toggle.scss' as *;
+
+@use './guarantees/guarantees';
+
+@use './steps/steps';
+@use './request/request';
+@use './patquest/patquest';
+@use './galery/galery';
+@use './faq/faq';
+@use './message/message';
+@use './backblur/backblur';
+
+
+input {outline:none;}
+
+a{
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+button{
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}

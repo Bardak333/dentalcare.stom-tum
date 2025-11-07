@@ -1,0 +1,52 @@
+.message{
+  &__btn-close{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    border: 0px;
+
+    &--img{
+      width: 18px;
+      height: 18px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+      &:nth-of-type(1){
+        background-image: url("../../../../assets/svg/message/close-icon.svg");
+      }
+      &:nth-of-type(2){
+        background-image: url("../../../../assets/svg/message/close-icon_white.svg");
+        display: none;
+      }
+      &:nth-of-type(3){
+        background-image: url("../../../../assets/svg/message/close-icon_green.svg");
+        display: none;
+      }
+    }
+
+    &:hover{
+      background-color: rgba(30, 134, 62, 0.25);
+      & div{
+        &:nth-of-type(1){display: none}
+        &:nth-of-type(2){display: none}
+        &:nth-of-type(3){display: flex}
+      }
+    }
+
+    &:active{
+      background-color: rgba(30, 134, 62, 0.6);
+      & div{
+        &:nth-of-type(1){display: none}
+        &:nth-of-type(2){display: flex}
+        &:nth-of-type(3){display: none}
+      }
+    }
+  }
+}

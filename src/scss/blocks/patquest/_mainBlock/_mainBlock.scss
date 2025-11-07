@@ -1,0 +1,44 @@
+.patquest{
+    &__mainBlock{
+        width: 1162px;
+        height: 835px;
+        background: radial-gradient(75.94% 81.81% at 21.47% 26.7%, #5CC37B 0%, #52D97A 100%);
+        display: grid;
+        border-radius: 16px;
+        padding: 16px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "item1 item2";
+
+        &--item{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            &:nth-of-type(1){
+                 grid-area: item1; 
+                 align-items: center;
+                 & .patquest__message-window{
+                    &:nth-of-type(1){ align-self: flex-start; }
+                    &:nth-of-type(3){ align-self: flex-end; transform: translateX(40px);}
+                 }
+                }
+
+            &:nth-of-type(2){ 
+                grid-area: item2; 
+                align-items: center; 
+                padding-top: 86px; 
+                gap: 60px;}
+        }
+
+        &--itemBG{
+            min-width: 556px;
+            min-height: 311px;
+            border-radius: 16px;
+            background-image: url("../../../../assets/png/patquest/room.jpg");
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+}

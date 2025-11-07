@@ -1,0 +1,32 @@
+.message{
+  &__btn_answer{
+    font-family: 'Noto-sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    color: rgba(255, 255, 255, 1);
+
+    width: calc(100% + 64px);
+    height: auto;
+    border: 0px solid rgb(45, 45, 45);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    position: relative;
+    bottom: 0px;
+    background-color: rgba(104, 93, 249, 1);
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+    &:hover{
+      background-color: rgb(76, 63, 255);
+    }
+
+    &:active{
+      font-size: 16px;
+    }
+  }
+}

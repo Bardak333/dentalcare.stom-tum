@@ -1,0 +1,92 @@
+.patquest{
+    &__message-window{
+        width: 500px;
+        height: auto;
+        border-radius: 18px;
+        padding: 16px;
+        background-color: rgba(246, 245, 250, 1);
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+
+        &--questions{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        &--question{
+            display: flex;
+            justify-content: start;
+            align-items: flex-end;
+            gap: 8px;
+
+            &--avatar{
+                min-width: 28px;
+                min-height: 28px;
+                border-radius: 50%;
+                background-image: url("../../../../assets/png/patquest/avatar.png");
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            &--text{
+                font-family: "Noto Sans", sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: -0.5px;
+                color: rgba(0, 0, 0, 1);
+                border-radius: 18px;
+                padding: 8px 12px;
+                max-width: 331px;
+                width: fit-content;
+                background-color: rgba(0, 0, 0, 0.06);
+
+                &_borderBottom{
+                    border-bottom-left-radius: 4px;
+                }
+
+                &_borderTop{
+                    border-top-left-radius: 4px;
+                }
+            }
+        }
+
+        &--answers{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        &--answer{
+            display: flex;
+            justify-content: end;
+            align-items: flex-end;
+            gap: 8px;
+            
+
+            &--text{
+                font-family: "Noto Sans", sans-serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: -0.5px;
+                color: rgba(255, 255, 255, 1);
+                border-radius: 18px;
+                padding: 8px 12px;
+                max-width: 331px;
+                background-color: rgba(92, 195, 123, 1);
+
+                &_borderBottom{
+                    border-bottom-right-radius: 4px;
+                }
+
+                &_borderTop{
+                    border-top-right-radius: 4px;
+                }
+            }
+        }
+    }
+}

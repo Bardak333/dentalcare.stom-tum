@@ -1,0 +1,41 @@
+.qwizRequest{
+  &__btn{
+    border-radius: 16px;
+    padding: 16px 35px;
+    height: 56px;
+    background-color: rgba(104, 93, 249, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    color: white;
+    gap: 8px;
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+    & img{
+      width: 36px;
+      height: 36px;
+    }
+
+    &.disabled{
+      opacity: 0.4;
+      cursor: inherit;
+    }
+
+    &:hover{
+      transform: translateY(-5px);
+    }
+
+    &:active{
+      transform: translateY(-5px) scale(90%);
+    }
+
+  }
+}

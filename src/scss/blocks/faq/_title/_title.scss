@@ -1,0 +1,52 @@
+.faq{
+    &__title{
+        width: 100%;
+        grid-area: text;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        border-radius: 18px;
+        background-color: rgba(246, 245, 250, 1);
+        padding: 15px 16px;
+
+        &--h{
+            font-family: "Noto Sans", sans-serif;
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: -1px;
+            line-height: 36px;
+            display: flex;
+            flex-direction: column;
+
+            &_whiteGreen{
+                color: rgba(92, 195, 123, 1);
+            }
+            &_darkGreen{
+                color: rgba(34, 131, 63, 1);
+                line-height: 100%;
+            }
+        }
+
+        &--p{
+            font-family: "Noto Sans", sans-serif;
+            font-size: 22px;
+            font-weight: 500;
+            letter-spacing: 0px;
+            line-height: 24px;
+            color: rgba(45, 45, 45, 1);
+        }
+    }
+}
+
+@media (max-width: 1194px) {
+    .faq{
+        &__title{
+            &--h{
+                font-size: 24px;
+                line-height: 100%;
+                gap: 8px;
+            }
+        }
+    }
+}

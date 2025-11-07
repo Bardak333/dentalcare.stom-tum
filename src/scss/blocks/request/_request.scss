@@ -1,0 +1,35 @@
+@use './_block/block';
+@use './_block/_btn/btn';
+@use './_block/_toggle/toggle';
+@use './_block/_form/form';
+
+.request{
+    background-color: rgba(247, 246, 251, 1);
+
+    &__img{
+        min-width: 573px;
+        min-height: 500px;
+        height: auto;
+        border-radius: 16px;
+        background-image: url('../../../assets/png/request/women.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__content{
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 1195px) {
+    .request{
+        &__img{
+            display: none;
+        }
+    }
+}

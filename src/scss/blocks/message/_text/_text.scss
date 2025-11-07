@@ -1,0 +1,24 @@
+.message{
+  &__text-title{
+    font-family: 'Noto-sans', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.5px;
+    color: rgb(45, 45, 45);
+    text-align: center;
+  }
+  &__text-p{
+    font-family: 'Noto-sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -0.5px;
+    color: rgb(45, 45, 45);
+    text-align: center;
+
+    &_green{
+      color: rgb(67, 185, 105);
+    }
+  }
+}

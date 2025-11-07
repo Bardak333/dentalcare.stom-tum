@@ -1,0 +1,30 @@
+.faq{
+    &__img{
+        min-width: 349px;
+        min-height: 277px;
+        border-radius: 16px;
+        background:  linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)),
+        url('../../../../assets/png/faq/doctorAndWomen.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        grid-area: img;
+    }
+}
+
+@media (max-width: 1194px) {
+    .faq{
+        &__img{
+            min-width: 329px;
+            min-height: 309px
+        }
+    }
+}
+
+@media (max-width: 390px) {
+    .faq{
+        &__img{
+            min-width: calc(100dvw - 64px);
+        }
+    }
+}

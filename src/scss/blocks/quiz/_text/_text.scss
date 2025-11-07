@@ -1,0 +1,26 @@
+.quiz{
+  &__text{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0;
+    color: rgba(45, 45, 45, 1);
+    padding: 8px 16px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    margin-top: 21px;
+  }
+}
+
+@media (max-width: 1026px) {
+  .quiz{
+    &__text{
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      margin-top: 8px;
+      margin-bottom: 32px;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.faq{
+    &__btn{
+        width: 100%;
+        height: 100%;
+        padding: 35px;
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(104, 93, 249, 1);
+        gap: 6px;
+        border: 0px;
+        transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+        font-family: "Noto Sans", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.5px;
+        color: rgba(255, 255, 255, 1);
+
+        &:hover{
+            background-color: rgb(77, 64, 252);
+        }
+
+        &:active{
+            transform: scale(90%);
+        }
+    }
+}
+
+@media (max-width: 1194px) {
+    .faq{
+        &__btn{
+            padding: 24px;
+        }
+    }
+}

@@ -1,0 +1,93 @@
+.quiz{
+  &__answers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    &--item{
+      cursor: pointer;
+      outline: none;
+      background-color: rgba(255, 255, 255, 1);
+      border-radius: 16px;
+      border: 1px solid rgba(224, 226, 228, 1);
+      display: flex;
+      justify-content: space-between;
+      padding: 30px;
+      min-width: 280px;
+      align-items: center;
+
+      &.active{
+        border: 1px solid rgba(34, 131, 63, 1);
+        background: rgba(92, 195, 123, 0.1);
+
+        & .quiz__answers--item-checkToggle{
+          border-color: rgba(34, 131, 63, 1);
+        }
+        & .quiz__answers--item-checkTogglePoint{
+          background-color: rgba(34, 131, 63, 1);
+        }
+      }
+
+      &:hover{
+        border: 1px solid rgba(34, 131, 63, 1);
+      }
+
+
+      & p{
+        font-family: "Noto Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.5px;
+        color: rgba(45, 45, 45, 1);
+        margin-right: 7px;
+      }
+
+      &-checkToggle{
+        min-width: 20px;
+        min-height: 20px;
+        border: 2px solid rgba(224, 226, 228, 1);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      &-checkTogglePoint{
+        min-width: 10px;
+        min-height: 10px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0);
+      }
+    }
+  }
+}
+
+@media (max-width: 604px) {
+  .quiz{
+    &__answers{
+      display: grid;
+      gap: 20px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas:
+              "answ1 answ2"
+              "answ3 answ4";
+
+      &--item{
+        min-width: 141px;
+        padding: 15px 16px;
+
+        & p{
+          font-size: 12px;
+          line-height: 16px;
+        }
+
+        &:nth-of-type(1){ grid-area: answ1; };
+        &:nth-of-type(2){ grid-area: answ2; };
+        &:nth-of-type(3){ grid-area: answ3; };
+        &:nth-of-type(4){ grid-area: answ4; };
+      }
+    }
+  }
+}

@@ -1,0 +1,160 @@
+.guarantees{
+    &__grid{
+        background-color: rgba(255, 255, 255, 1);
+        width: auto;
+        height: auto;
+        border-radius: 16px;
+        padding: 16px;
+        display: grid;
+        gap: 16px;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: 
+        "gar1 gar2 gar3"
+        ". . gar4";
+
+        &--item{
+            width: 366px;
+            height: 176px;
+            position: relative;
+            border-radius: 16px;
+            padding: 12px 12px 32px 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            & img{
+                position: absolute;
+            }
+
+            &:nth-of-type(1){
+                grid-area: gar1;
+                background-color: rgba(92, 195, 123, 1);
+                & p{
+                    max-width: 150px;
+                }
+                & img{
+                    width: 180px;
+                    height: auto;
+                    right: 0px;
+                    bottom: -25px;
+                }
+            }
+            &:nth-of-type(2){
+                grid-area: gar2;
+                background: 
+                linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                url('../../../../assets/png/guarantees/bg.jpg'),
+                linear-gradient(rgba(254, 254, 254, 1), rgba(254, 254, 254, 1));
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            &:nth-of-type(3){
+                grid-area: gar3;
+                background-color: rgba(92, 195, 123, 1);
+                & p{
+                    max-width: 150px;
+                }
+                & img{
+                    width: 200px;
+                    height: auto;
+                    bottom: 0px;
+                    right: 0px;
+                }
+            }
+            &:nth-of-type(4){
+                grid-area: gar4;
+                background-color: rgba(34, 131, 63, 1);
+            }
+        }
+
+        &--title{
+            font-family: "Noto Sans", sans-serif;
+            font-size: 32px;
+            font-weight: 800;
+            line-height: 36px;
+            letter-spacing: 0px;
+            color: rgba(255, 255, 255, 1);
+        }
+
+        &--text{
+            font-family: "Noto Sans", sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 100%;
+            letter-spacing: 0px;
+            color: rgba(255, 255, 255, 1);
+        }
+    }
+}
+
+
+@media (max-width: 1195px) {
+    .guarantees{
+        &__grid{
+           grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+            grid-template-areas: 
+            "gar1 gar2"
+            "gar3 gar4";
+        }
+    }
+}
+
+@media (max-width: 817px) {
+    .guarantees{
+        &__grid{
+           grid-template-columns: auto;
+            grid-template-rows: auto auto auto auto;
+            grid-template-areas: 
+            "gar1"
+            "gar2"
+            "gar3"
+            "gar4";
+        }
+    }
+}
+
+@media (max-width: 442px) {
+    .guarantees{
+        &__grid{
+           &--item{
+            width: calc(100dvw - 64px);
+
+            & img{
+                width: 150px !important;
+            }
+
+            &:nth-of-type(1){
+                grid-area: gar1;
+                background-color: rgba(92, 195, 123, 1);
+                & p{
+                    max-width: 150px;
+                }
+                & img{
+                    bottom: 10px;
+                }
+            }
+           }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .guarantees{
+        &__grid{
+           &--item{
+
+            & img{
+            }
+
+            &:nth-of-type(1){
+                & img{
+                    width: 130px !important;
+                }
+            }
+           }
+        }
+    }
+}

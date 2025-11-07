@@ -1,0 +1,17 @@
+.steps{
+    &__widget{
+        &--text{
+            font-family: "Noto Sans", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.25px;
+            color: rgba(45, 45, 45, 1);
+        }
+
+        &--img{
+            width: 104px;
+            height: auto;
+        }
+    }
+}
