@@ -1,16 +1,31 @@
 .header__phoneBtn {
-    width: 44px;
-    height: 44px;
-    background-color: #F7F6FB;
-    border: none;
-    border-radius: 12px;
-    background-image: url(/src/assets/svg/phone.svg);
-    background-position: center center;
-    background-repeat: no-repeat;
+  width: 44px;
+  height: 44px;
+  background-color: #F7F6FB;
+  border: none;
+  border-radius: 12px;
+  background-image: url('/src/assets/svg/phone.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  margin-top: auto;
+  cursor: pointer;
+  transform: translateY(5px);
+  -webkit-tap-highlight-color: transparent;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+
+    background-color: #22833F1A;
+    background-image: url("/src/assets/svg/phone_green.svg");
     background-size: 18px;
-    margin-top: auto;
-    cursor: pointer;
-    transform: translateY(5px);
+  }
+
+  &:active {
+
+    background-color: #22833F;
+    background-image: url("/src/assets/svg/phone_whiteBig.svg");
+  }
 }
 
 @media screen and (min-width: 1194px) {
