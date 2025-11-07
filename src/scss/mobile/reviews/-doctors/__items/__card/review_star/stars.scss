@@ -1,0 +1,22 @@
+.review__star {
+
+  &_yellow {
+
+    width: 24px;
+    height: 24px;
+    background-image: url('/src/assets/svg/star_yellow.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+  }
+
+  &_empty {
+
+    width: 24px;
+    height: 24px;
+    background-image: url('/src/assets/svg/star_empty.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+  }
+}

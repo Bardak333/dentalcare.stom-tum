@@ -1,0 +1,31 @@
+.reviews-doctors {
+
+  &__items {
+
+    overflow: hidden;
+    max-width: 361px;
+    width: 100%;
+    //scrollbar-width: none;
+
+    @media screen and (min-width: 1194px) {
+
+      max-width: 1115px;
+    }
+  }
+
+
+
+  &_container {
+    gap: 16px;
+    display: flex;
+    width: 1115px;
+
+    @media screen and (min-width: 1194px) {
+
+      gap: 40px;
+    }
+  }
+}
+
+
+

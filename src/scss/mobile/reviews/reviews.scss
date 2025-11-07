@@ -1,0 +1,10 @@
+.reviews {
+
+  background-color: #f7f6fb;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+}

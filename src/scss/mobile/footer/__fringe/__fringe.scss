@@ -1,0 +1,39 @@
+.footer__fringe {
+
+
+  position: absolute;
+  bottom: 0;
+  background-image: url("/src/assets/svg/fringe_footerMobile.svg");
+  width: 231px;
+  height: 48px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  justify-items: center;
+
+  @media screen and (min-width: 1194px) {
+
+    background-image: url("/src/assets/svg/fringe_footerLaptop.svg");
+    width: 625px;
+    height: 62px;
+  }
+
+  &_link {
+
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 144px;
+    height: 32px;
+    background-image: url("/src/assets/svg/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+
+    @media screen and (min-width: 1194px) {
+
+      width: 230px;
+      height: 51px;
+    }
+  }
+}

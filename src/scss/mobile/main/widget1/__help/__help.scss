@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-    background-color: #ffffff;
+
 
     &_text1 {
 
@@ -11,7 +11,7 @@
         font-weight: 500;
         font-size: 22px;
         line-height: 24px;
-        background-color: #ffffff00;
+        color: #2D2D2D;
     }
 
     @media screen and (min-width: 1194px) {
@@ -27,7 +27,6 @@
         display: flex;
         flex-direction: column;
         gap: 8px;
-        background-color: #ffffff00;
     }
 
     &_item {
@@ -35,7 +34,6 @@
         display: flex;
         gap: 8px;
         align-items: center;
-        background-color: #ffffff00;
     }
 
     &_radio {
@@ -46,7 +44,6 @@
         background-position: center center;
         background-repeat: no-repeat;
         background-size: contain;
-        background-color: #ffffff00;
     }
 
     &_text2 {
@@ -56,7 +53,7 @@
         font-size: 14px;
         line-height: 20px;
         letter-spacing: 0.25px;
-        background-color: #ffffff00;
+        color: #2D2D2D;
     }
 
     @media screen and (min-width: 1194px) {

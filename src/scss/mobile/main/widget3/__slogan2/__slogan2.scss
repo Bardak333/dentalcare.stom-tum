@@ -4,7 +4,7 @@
   padding: 14px 12px;
   box-shadow: 0 8px 18px 0 #0000001A;
   border-radius: 16px;
-  background-color: #FFFFFF;
+  background-color: #F7F6FB;
   gap: 8px;
   transform: translateY(-18px);
     
@@ -17,8 +17,8 @@
       line-height: 100%;
       letter-spacing: 0;
       vertical-align: middle;
-      background-color: #ffffff00;
       max-width: 249px;
+      color: #2D2D2D;
   }
 
   @media screen and (min-width: 1672px) {
@@ -34,7 +34,6 @@
   &_text-bold {
 
       font-weight: 700;
-      background-color: #ffffff00;
   }
 
   &_statue {
@@ -66,7 +65,6 @@
       background-position: center center;
       background-repeat: no-repeat;
       background-size: contain;
-      background-color: #ffffff00;
       position: absolute;
       left: 16px;
       top: -25px;
@@ -91,9 +89,9 @@
       background-position: center center;
       background-repeat: no-repeat;
       background-size: contain;
-      background-color: #ffffff00;
       position: absolute;
       top: 22px;
+      color: #2D2D2D;
   }
 
   @media screen and (min-width: 1672px) {

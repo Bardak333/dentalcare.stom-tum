@@ -96,7 +96,7 @@
       border-radius: 16px;
       border: none;
       text-wrap: nowrap;
-
+      color: #2D2D2D;
   }
 
   &_btnIcon {
@@ -107,7 +107,6 @@
       background-position: center center;
       background-repeat: no-repeat;
       background-size: contain;
-      background-color: #ffffff00;
   }
 
   &_application-text {
@@ -126,7 +125,6 @@
 
       width: 104px;
       height: 173px;
-      background-color: #ffffff00;
       background-image: url(/src/assets/png/implants.png);
       background-position: center center;
       background-repeat: no-repeat;

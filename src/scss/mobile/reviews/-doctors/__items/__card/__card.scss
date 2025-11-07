@@ -1,0 +1,168 @@
+.reviews-doctors__card {
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 496px;
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: right 10px;
+    background-size: 173px 270px;
+    border-radius: 16px;
+}
+
+._nizami {
+
+  background-image: url("/src/assets/png/nizami.png");
+}
+
+._mihail {
+
+  background-image: url("/src/assets/png/mihail.png");
+}
+
+._nikita {
+
+  background-image: url("/src/assets/png/nikita.png");
+}
+
+.doctors-card {
+
+  &__experience {
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    &_text {
+
+      font-family: "Work Sans", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0;
+      color: #2D2D2D;
+    }
+
+    &_text-bold {
+
+      font-family: "Work Sans", sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -1px;
+      vertical-align: middle;
+    }
+  }
+
+  &__information {
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 34px 28px 97px 0 #CDCDD026;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  &__name {
+
+    display: flex;
+    flex-direction: column;
+
+    &_firstname {
+
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 36px;
+      letter-spacing: 0;
+      vertical-align: middle;
+      color: #2D2D2D;
+    }
+
+    &_lastname {
+
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 24px;
+      letter-spacing: 0;
+      vertical-align: middle;
+      color: #2D2D2D;
+    }
+
+    &_qualification {
+
+      font-family: "Work Sans", sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0;
+      color: #22833F;
+      margin-top: 12px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #F7F6FB;
+    }
+
+    &_qualification-dop {
+
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: -0.5px;
+      vertical-align: middle;
+      color: #2D2D2D;
+      margin-top: 12px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #F7F6FB;
+    }
+  }
+
+  &__review {
+
+    display: flex;
+    flex-direction: column;
+
+    &_estimation {
+
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &_estimation-text {
+
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 32px;
+      letter-spacing: 0;
+      vertical-align: middle;
+      color: #2D2D2D;
+    }
+
+    &_company {
+
+      width: 154px;
+      height: 48px;
+      background-image: url('/src/assets/png/companies/proDoctorov.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: contain;
+      margin: 0 auto;
+    }
+  }
+}
+

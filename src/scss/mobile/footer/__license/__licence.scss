@@ -1,0 +1,27 @@
+.footer__license {
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  &_text {
+
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    color: #2D2D2D;
+  }
+
+  &_text-light {
+
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-align: justify;
+    color: #747474;
+  }
+}

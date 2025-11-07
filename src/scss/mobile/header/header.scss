@@ -50,10 +50,9 @@
     background-size: contain;
     width: 22px;
     height: 22px;
-    background-color: #ffffff00;
     position: absolute;
     z-index: 100;
-    left: -1px;
+    left: 0;
     top: 0;
 }
 
@@ -64,10 +63,9 @@
     background-size: contain;
     width: 22px;
     height: 22px;
-    background-color: #ffffff00;
     position: absolute;
     z-index: 100;
-    right: -1px;
+    right: 0px;
     top: 0;
     transform: rotate(90deg);
 }
