@@ -15,6 +15,27 @@
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
+    align-items: center;
+  }
+
+  @media screen and (min-width: 1194px) {
+
+    &_container {
+
+      width: 837px;
+      height: 195px;
+      position: absolute;
+      top: 436px;
+      right: -80px;
+    }
+  }
+
+  @media screen and (min-width: 1672px) {
+
+    &_container {
+
+      right: 0;
+    }
   }
 
   &_item {
@@ -31,16 +52,128 @@
     background-color: #ffffff00;
   }
 
-  &_star {
+  @media screen and (min-width: 1194px) {
 
-    background-color: #FFFFFF;
-    border-radius: 16px;
-    box-shadow: 0 8px 18px 0 #0000001A;
+    &_item {
+
+      width: 330px;
+      height: 669px;
+      left: 250px;
+      top: -495px;
+      position: absolute;
+    }
   }
 
   &_widget {
     display: flex;
-    align-items: center;
     position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 16px;
+    gap: 8px;
+    bottom: 5px;
+    box-shadow: 0 0 10px 0 #0000001A;
+
   }
+
+  @media screen and (min-width: 1194px) {
+
+    &_widget {
+      bottom: 0;
+      box-shadow: 0 8px 18px 0 #0000001A;
+      border-radius: 24px;
+      left: 30px;
+    }
+  }
+
+  &_title {
+    background-image: url('/src/assets/svg/statue.svg');
+    width: 60px;
+    height: 60px;
+    background-size: 60px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  @media screen and (min-width: 1194px) {
+
+    &_title {
+
+      width: 96px;
+      height: 96px;
+      background-size: 96px;
+
+    }
+  }
+
+  &_star {
+    background-image: url('/src/assets/png/help/certificate_star.png');
+    width: 47px;
+    height: 85px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 6px;
+    bottom: 3px;
+  }
+
+  @media screen and (min-width: 1194px) {
+
+    &_star {
+
+      width: 66px;
+      height: 118px;
+      left: 14px;
+      bottom: 8px;
+    }
+  }
+
+  &_rayStar {
+    background-image: url('/src/assets/svg/rayOfStatue.svg');
+    width: 40px;
+    height: 25px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: -6px;
+  }
+
+  @media screen and (min-width: 1194px) {
+
+    &_rayStar {
+
+      width: 57px;
+      height: 34px;
+      left: -14px;
+    }
+  }
+
+  &_text {
+    max-width: 253px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0;
+    vertical-align: middle;
+    color: #2D2D2D;
+  }
+
+  @media screen and (min-width: 1194px) {
+
+    &_text {
+      font-size: 16px;
+      max-width: 286px;
+      line-height: inherit;
+    }
+  }
+
+  &_text-bold {
+    font-weight: 700;
+  }
+
 }

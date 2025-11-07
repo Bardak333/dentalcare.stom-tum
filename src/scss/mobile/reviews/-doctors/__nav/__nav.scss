@@ -1,0 +1,83 @@
+.reviews-doctors {
+
+  &__nav {
+
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+    @media screen and (min-width: 1194px) {
+
+      display: none;
+    }
+  }
+
+  ._btn_unactive {
+
+    background-image: url("/src/assets/svg/btns/mark_unactive.svg");
+    pointer-events: none;
+  }
+
+  ._btn_common {
+
+    background-image: url("/src/assets/svg/btns/mark_common.svg");
+    border: 1px solid #E0E2E4;
+  }
+
+  &_btnBack {
+
+    width: 44px;
+    height: 44px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 24px;
+    border: 1px solid rgba(255,255,255,0);
+    border-radius: 16px;
+    background-color: rgba(255,255,255,0);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    transform: rotate(180deg);
+    -webkit-tap-highlight-color: transparent;
+
+    &:hover {
+
+      background-image: url("/src/assets/svg/btns/mark_hover.svg");
+      border: 1px solid #22833F;
+    }
+
+    &:active {
+
+      background-image: url("/src/assets/svg/btns/mark_hover.svg");
+      background-color: #5CC37B1A;
+    }
+  }
+
+  &_btnNext {
+
+    width: 44px;
+    height: 44px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 24px;
+    border-radius: 16px;
+    background-color: rgba(255,255,255,0);
+    transition: all 0.2s ease-in-out;
+    border: 1px solid rgba(255,255,255,0);
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+
+    &:hover {
+
+      background-image: url("/src/assets/svg/btns/mark_hover.svg");
+      border: 1px solid #22833F;
+    }
+
+    &:active {
+
+      background-image: url("/src/assets/svg/btns/mark_hover.svg");
+      background-color: #5CC37B1A;
+    }
+  }
+
+
+}

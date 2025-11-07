@@ -5,7 +5,6 @@
     align-items: center;
     width: fit-content;
     margin: 0 auto;
-    background-color: #ffffff00;
 
     &_text1 {
 
@@ -16,7 +15,6 @@
         letter-spacing: -0.5px;
         vertical-align: middle;
         color: #22833F;
-        background-color: #ffffff00;
     }
 
     &_text2 {
@@ -27,8 +25,7 @@
         line-height: 20px;
         letter-spacing: -0.5px;
         vertical-align: middle;
-        background-color: #ffffff00;
-
+        color: #2D2D2D;
     }
 }
 

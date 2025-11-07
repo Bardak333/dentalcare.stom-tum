@@ -9,5 +9,15 @@
     flex-direction: column;
     gap: 24px;
     align-items: center;
+    position: relative;
+  }
+
+  @media screen and (min-width: 1194px) {
+
+    &__content {
+
+      margin-bottom: -300px;
+      align-items: start;
+    }
   }
 }

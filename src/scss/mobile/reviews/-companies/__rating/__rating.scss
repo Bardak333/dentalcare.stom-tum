@@ -1,0 +1,91 @@
+.reviews-companies__rating {
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.rating {
+
+
+
+  &__item {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 8px;
+    padding: 10px 16px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+
+    @media screen and (min-width: 1194px) {
+
+      max-width: 300px;
+    }
+
+    &_text {
+
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: -0.5px;
+      vertical-align: middle;
+      color: #2D2D2D;
+    }
+  }
+
+  &__header {
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+
+    &_text-lightGreen {
+
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 100%;
+      letter-spacing: -1px;
+      vertical-align: middle;
+      color: #5CC37B;
+
+      @media screen and (min-width: 1194px) {
+
+        font-size: 36px;
+      }
+    }
+
+    &_text-darkGreen {
+
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 100%;
+      letter-spacing: -1px;
+      vertical-align: middle;
+      color: #22833F;
+
+      @media screen and (min-width: 1194px) {
+
+        font-size: 36px;
+      }
+    }
+  }
+
+  &__description {
+
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #2D2D2D;
+  }
+}
+

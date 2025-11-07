@@ -49,4 +49,33 @@
 @use './mobile/help/help' as mobile;
 @use './mobile/help/__title/__title.scss';
 @use './mobile/help/__items/_items.scss';
-@use './mobile/help/__certificate/_certificate.scss';
+@use './mobile/help/__certificate/_certificate.scss' as *;
+
+@use './mobile/reviews/reviews.scss' as *;
+@use './mobile/reviews/-doctors/-doctors.scss' as *;
+@use './mobile/reviews/-doctors/__title/_title.scss' as *;
+@use './mobile/reviews/-doctors/__items/_items.scss' as *;
+@use './mobile/reviews/-doctors/__items/__card/_card.scss';
+@use './mobile/reviews/-doctors/__items/__card/review_star/stars.scss' as *;
+@use './mobile/reviews/-doctors/__nav/_nav.scss' as *;
+
+@use './mobile/reviews/-companies/-companies';
+@use './mobile/reviews/-companies/__rating/_rating.scss';
+@use './mobile/reviews/-companies/__items/_items.scss' as *;
+
+@use './mobile/reviews/-main/-main.scss' as *;
+@use './mobile/reviews/-main/__nav/_nav.scss' as *;
+@use './mobile/reviews/-main/__container/-item/-item.scss' as *;
+@use './mobile/reviews/-main/__container/_container.scss' as *;
+@use './mobile/reviews/-main/__container/-item/-case/-case.scss' as *;
+
+@use './mobile/calculation/calculation.scss' as *;
+@use './mobile/calculation/__block/_block.scss' as *;
+@use './mobile/calculation/__item/_item.scss' as *;
+
+@use './mobile/footer/footer.scss' as *;
+@use './mobile/footer/__feedback/_feedback.scss' as *;
+@use './mobile/footer/__nav/_nav.scss' as *;
+@use './mobile/footer/__links/_links.scss' as *;
+@use './mobile/footer/__license/_licence.scss' as *;
+@use './mobile/footer/__warning/_warning.scss' as *;

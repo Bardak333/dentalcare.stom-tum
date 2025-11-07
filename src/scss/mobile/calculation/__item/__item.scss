@@ -1,0 +1,243 @@
+.calculation {
+
+  &__item {
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    max-width: 330px;
+    padding: 10px 10px 112px;
+
+    @media screen and (min-width: 1194px) {
+
+      padding: 10px 10px 80px;
+    }
+  }
+}
+
+.calculation-item {
+
+  &__skull {
+
+    width: 108px;
+    height: 88px;
+    background-image: url("/src/assets/png/calculation/skull.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    top: -38px;
+  }
+
+  &__skull2 {
+
+    width: 108px;
+    height: 88px;
+    background-image: url("/src/assets/png/calculation/skull2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    top: -38px;
+  }
+
+  &__head {
+
+    &_title {
+
+      padding: 8px 16px;
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 100%;
+      letter-spacing: -1px;
+      vertical-align: middle;
+      color: #FFFFFF;
+      background-color: #5CC37B;
+      border-radius: 16px;
+      width: 100%;
+    }
+
+    &_addition {
+
+      padding: 8px 16px;
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 100%;
+      letter-spacing: -1px;
+      vertical-align: middle;
+      color: #2D2D2D;
+    }
+  }
+
+  &__flag {
+
+    width: 241px;
+    height: 49px;
+    background-image: url("/src/assets/png/calculation/flag_South_Korea.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }
+
+  &__list {
+
+    display: flex;
+    flex-direction: column;
+
+    &_greenMark {
+
+      width: 18px;
+      height: 18px;
+      background-image: url("/src/assets/svg/green_mark.svg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: contain;
+    }
+
+    &_point {
+
+      display: flex;
+      gap: 10px;
+      padding: 5px;
+      align-items: center;
+    }
+
+    &_text {
+
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0;
+      color: #2D2D2D;
+    }
+  }
+
+  &__marks {
+
+    background: linear-gradient(180deg, rgba(162, 162, 162, 0.4) -187.95%, rgba(246, 246, 246, 0.4) 100%);
+    border-radius: 16px;
+    padding: 6px;
+    position: relative;
+
+    &_item {
+
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      padding: 5px 0;
+
+    }
+
+    &_implantIcon {
+
+      width: 44px;
+      height: 44px;
+      background-image: url("/src/assets/svg/calculation/implant_icon.svg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 24px;
+      background-color: #5CC37B;
+      border-radius: 50%;
+    }
+
+    &_implant2Icon {
+
+      width: 44px;
+      height: 44px;
+      background-image: url("/src/assets/svg/calculation/implant2_icon.svg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 24px;
+      background-color: #5CC37B;
+      border-radius: 50%;
+    }
+
+    &_cash {
+
+      width: 44px;
+      height: 44px;
+      background-image: url("/src/assets/svg/calculation/cash.svg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 24px;
+      background-color: #5CC37B;
+      border-radius: 50%;
+    }
+
+    &_gift {
+
+      width: 44px;
+      height: 44px;
+      background-image: url("/src/assets/svg/calculation/gift.svg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 24px;
+      background-color: #5CC37B;
+      border-radius: 50%;
+    }
+
+    &_text {
+
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: -1px;
+      color: #2D2D2D;
+      width: 244px;
+    }
+  }
+
+  &__btn {
+
+    padding: 35px 0;
+    background-color: #685DF9;
+    border-radius: 0 32px 16px 16px;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    vertical-align: middle;
+    color: #FFFFFF;
+
+    @media screen and (min-width: 1194px) {
+
+      padding: 16px 0;
+      border-radius: 0 0 16px 16px;
+    }
+
+    &_icon {
+
+      width: 36px;
+      height: 36px;
+      background-color: #FFFFFF26;
+      background-image: url("/src/assets/svg/btns/arrow_right.svg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 24px;
+      border-radius: 8px;
+
+    }
+  }
+}

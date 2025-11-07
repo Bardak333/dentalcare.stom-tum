@@ -16,6 +16,23 @@
     text-align: center;
   }
 
+  @media screen and (min-width: 1194px) {
+
+    &_text1-lightGreen {
+
+      font-size: 36px;
+      text-align: start;
+    }
+  }
+
+  @media screen and (min-width: 1672px) {
+
+    &_text1-lightGreen {
+
+      font-size: 48px;
+    }
+  }
+
   &_text1-darkGreen {
 
     color: #22833F;
@@ -28,6 +45,23 @@
     text-align: center;
   }
 
+  @media screen and (min-width: 1194px) {
+
+    &_text1-darkGreen {
+
+      font-size: 36px;
+      text-align: start;
+    }
+  }
+
+  @media screen and (min-width: 1672px) {
+
+    &_text1-darkGreen {
+
+      font-size: 48px;
+    }
+  }
+
   &_text2 {
 
     font-family: "Noto Sans", sans-serif;
@@ -37,6 +71,22 @@
     letter-spacing: 0;
     text-align: center;
     color: #2D2D2D;
+  }
 
+  @media screen and (min-width: 1194px) {
+
+    &_text2 {
+
+      font-size: 24px;
+      text-align: start;
+    }
+  }
+
+  @media screen and (min-width: 1672px) {
+
+    &_text2 {
+
+      font-size: 32px;
+    }
   }
 }

@@ -1,0 +1,34 @@
+.footer__nav-btn {
+
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.5px;
+  padding: 5px 20px;
+  width: 100%;
+  border: none;
+  border-radius: 25px;
+  background-color: #ffffff00;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+
+    background-color: #22833F26;
+    color: #22833F;
+  }
+
+  &:active {
+
+    background-color: #22833F;
+    color: #F7F6FB;
+  }
+}
+
+.footer__nav-list {
+
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
