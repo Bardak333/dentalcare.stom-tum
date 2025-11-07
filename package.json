@@ -6,11 +6,15 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "node deploy.js"
   },
   "devDependencies": {
     "sass": "^1.93.3",
     "sass-embedded": "^1.93.2",
     "vite": "^7.1.7"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
   }
 }

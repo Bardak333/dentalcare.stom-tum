@@ -25,3 +25,10 @@
     color: #747474;
   }
 }
+
+@media (min-width: 1194px) {
+  .footer__license{
+    grid-area: license;
+    padding: 10px 0px;
+  }
+}

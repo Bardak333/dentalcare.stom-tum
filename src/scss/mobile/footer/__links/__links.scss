@@ -44,3 +44,11 @@
     color: #000000;
   }
 }
+
+@media (min-width: 1194px) {
+  .footer__links{
+    align-items: flex-start;
+    grid-area: cookie;
+    
+  }
+}

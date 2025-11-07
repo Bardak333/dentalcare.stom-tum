@@ -32,3 +32,12 @@
   align-items: center;
   gap: 4px;
 }
+
+@media (min-width: 1194px) {
+  .footer__nav-list{
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 273px;
+    grid-area: navBtns;
+  }
+}

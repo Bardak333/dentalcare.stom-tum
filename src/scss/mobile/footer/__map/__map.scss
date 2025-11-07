@@ -1,0 +1,19 @@
+.footer{
+    &__map{
+        min-width: 361px;
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+        transform: translateY(40px);
+        z-index: 1;
+        border-radius: 25px;
+    }
+}
+
+@media (min-width: 1194px) {
+    .footer{
+        &__map{
+            width: 1162px;
+        }
+    }
+}

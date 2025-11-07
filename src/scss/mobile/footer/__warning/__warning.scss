@@ -15,3 +15,10 @@
     color: #2D2D2D;
   }
 }
+
+@media (min-width: 1194px) {
+  .footer__warning{
+    grid-area: infoText;
+    justify-content: center;
+  }
+}
