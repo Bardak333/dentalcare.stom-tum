@@ -1,14 +1,20 @@
 .header__address {
     &_btn {
-        width: 16px;
-        height: 16px;
-        background-image: url(/src/assets/svg/btns/arrow_down.svg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        border: none;
-        background-color: rgba(255, 255, 255, 0);
-        cursor: pointer;
+
+      width: 16px;
+      height: 16px;
+      background-image: url(/src/assets/svg/btns/arrow_down.svg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      border: none;
+      background-color: rgba(255, 255, 255, 0);
+      cursor: pointer;
+      transition: all 0.4s ease-in-out;
     }
+}
+
+.address_active {
+  transform: rotate(180deg);
 }
 

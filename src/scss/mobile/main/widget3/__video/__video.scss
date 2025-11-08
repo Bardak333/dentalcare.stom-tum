@@ -1,12 +1,13 @@
 .widget3__video {
 
-    width: 341px;
-    height: 514px;
-    background-image: url(/src/assets/png/video_icon.png);
-    background-position: -150px center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 16px;
+  width: 341px;
+  height: 514px;
+  background-image: url(/src/assets/png/video_icon.png);
+  background-position: -150px center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  position: relative;
 
 }
 
@@ -25,7 +26,24 @@
     .widget3__video {
 
         width: 237px;
-        height: 514px;
+
     }
 
+}
+
+#mainVideo {
+
+  width: 100%;
+  border-radius: 16px;
+  position: relative;
+
+  @media screen and (min-width: 1194px) {
+
+    width: 281px;
+  }
+
+  @media screen and (min-width: 1672px) {
+
+    width: 281px;
+  }
 }

@@ -7,6 +7,7 @@
 
   @media screen and (min-width: 1194px) {
 
+    gap: 4px;
     flex-direction: row;
   }
 
@@ -16,24 +17,26 @@
     flex-direction: column;
     gap: 16px;
 
+    @media screen and (min-width: 1194px) {
+
+      gap: 6px;
+    }
+
   }
 
   &_view {
 
-    width: 329px;
-    height: 500px;
-    background-image: url("/src/assets/png/reviews/cases/case1_video.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    width: 326px;
     margin-top: 140px;
     border-radius: 16px;
+    position: relative;
+    transform-origin: right bottom;
+    transition: all 0.5s ease;
 
     @media screen and (min-width: 1194px) {
 
       margin-top: 0;
-      width: 200px;
-      height: 399px;
+      width: 219px;
     }
   }
 
@@ -46,7 +49,7 @@
     background-position: center center;
     background-size: contain;
     position: absolute;
-    bottom: 520px;
+    bottom: 600px;
 
     @media screen and (min-width: 1194px) {
 
@@ -246,5 +249,56 @@
       bottom: 10px;
       right: 10px;
     }
+  }
+}
+
+#reviewVideo {
+
+  width: 100%;
+  border-radius: 16px;
+}
+
+.openVideo {
+
+  width: 40px;
+  height: 40px;
+  background-image: url("/src/assets/svg/btns/videoOpen.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 14px;
+  background-color: #00000040;
+  border-radius: 50%;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 3;
+  cursor: pointer;
+  transition: all 0.4s ease;
+
+  @media screen and (max-width: 1193px) {
+
+    display: none;
+  }
+}
+
+.review_videoActive {
+
+  transform: scale(160%) translateY(2px);
+
+  @media screen and (min-width: 1672px) {
+
+    transform: scale(168%) translateY(2px);
+  }
+
+  @media screen and (max-width: 1193px) {
+
+    transform: scale(100%) translateY(0);
+  }
+
+  .openVideo {
+
+    width: 30px;
+    height: 30px;
+    background-size: 10px;
   }
 }

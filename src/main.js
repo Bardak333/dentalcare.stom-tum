@@ -8,3 +8,6 @@ import './js/quiz/quiz.js';
 import './js/request/request.js';
 import './js/message/message.js';
 import './js/opinion/opinion.js';
+
+
+import './js/reviews/video/videoOpen.js';
