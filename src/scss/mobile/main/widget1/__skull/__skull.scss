@@ -14,47 +14,92 @@
 
     &_component1 {
 
-        width: 203px;
-        height: 44px;
-        background-image: url(/src/assets/svg/skullConponent_left.svg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        display: flex;
-        padding: 6px 11px 6px 6px;
-        justify-content: space-between;
-        align-items: center;
-        position: absolute;
-        right: 0;
-        top: -6px;
+      width: 203px;
+      height: 44px;
+      background-image: url(/src/assets/svg/skullConponent_left.svg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      display: flex;
+      padding: 6px 11px 6px 6px;
+      justify-content: space-between;
+      align-items: center;
+      position: absolute;
+      right: 0;
+      top: -6px;
+      transition: all 0.2s ease-in-out;
+      cursor: default;
+
+      &:hover {
+
+        background-image: url("/src/assets/svg/skullConponent_left-hover.svg");
+
+        @media screen and (min-width: 1672px)  {
+          background-image: url('/src/assets/svg/skullComponent_desktop_left-hover.svg');
+        }
+
+        .widget1__skull_teeth {
+
+          background-image: url(/src/assets/svg/tooth-hover.svg);
+
+        }
+
+        .widget1__skull_text {
+
+          color: #ffffff;
+        }
+
+      }
     }
 
     @media screen and (min-width: 1672px) {
         
         &_component1 {
 
-            top: 10px;
-            padding: 10px 26px 10px 10px;
-            width: 322px;
-            height: 52px;
-            background-image: url(/src/assets/svg/skullComponent_desktop_left.svg);
+          top: 10px;
+          padding: 10px 26px 10px 10px;
+          width: 322px;
+          height: 52px;
+          background-image: url(/src/assets/svg/skullComponent_desktop_left.svg);
         }
     }
 
     &_component2 {
 
-        width: 203px;
-        height: 44px;
-        background-image: url(/src/assets/svg/skullConponent_right.svg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        display: flex;
-        padding: 6px 6px 6px 16px;
-        justify-content: space-between;
-        align-items: center;
-        position: absolute;
-        bottom: -22px;
+      width: 203px;
+      height: 44px;
+      background-image: url(/src/assets/svg/skullConponent_right.svg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      display: flex;
+      padding: 6px 6px 6px 16px;
+      justify-content: space-between;
+      align-items: center;
+      position: absolute;
+      bottom: -22px;
+      transition: all 0.2s ease-in-out;
+      cursor: default;
+
+      &:hover {
+
+        background-image: url("/src/assets/svg/skullConponent_right-hover.svg");
+
+        @media screen and (min-width: 1672px)  {
+
+          background-image: url('/src/assets/svg/skullComponent_desktop_right-hover.svg');
+        }
+
+        .widget1__skull_teeth {
+
+          background-image: url(/src/assets/svg/tooth-hover.svg);
+        }
+
+        .widget1__skull_text {
+
+          color: #ffffff;
+        }
+      }
     }
 
     @media screen and (min-width: 1672px) {
