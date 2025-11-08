@@ -1,7 +1,7 @@
 export function toggleBackblur(
     messageText='Мы получили вашу заявку и позвоним в течении 15 минут, чтобы уточнить детали'
 ){
-    const backblur = document.querySelector(".backblur");
+    const backblur = document.querySelectorAll(".backblur")[0];
     const body = document.querySelector("body");
     const message = document.querySelector(".message");
     message.querySelector("p").innerHTML = messageText;

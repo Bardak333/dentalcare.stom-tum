@@ -1,0 +1,18 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Левая половина звезды (закрашенная) -->
+  <path d="M12 17.77L18.18 21.5L16.54 14.47L22 9.74L14.81 9.13L12 2.5L9.19 9.13L2 9.74L7.46 14.47L5.82 21.5L12 17.77Z" 
+        fill="#FFCC00" clip-path="url(#half-left)"/>
+  
+  <!-- Правая половина звезды (незакрашенная, только контур) -->
+  <path d="M12 17.77L18.18 21.5L16.54 14.47L22 9.74L14.81 9.13L12 2.5L9.19 9.13L2 9.74L7.46 14.47L5.82 21.5L12 17.77Z" 
+        fill="none" stroke="#FFCC00" stroke-width="0.5" clip-path="url(#half-right)"/>
+  
+  <defs>
+    <clipPath id="half-left">
+      <rect x="0" y="0" width="12" height="24"/>
+    </clipPath>
+    <clipPath id="half-right">
+      <rect x="12" y="0" width="12" height="24"/>
+    </clipPath>
+  </defs>
+</svg>

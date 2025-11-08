@@ -10,6 +10,11 @@
     background-position: right 10px;
     background-size: auto 270px;
     border-radius: 16px;
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover{
+      background-color: rgba(92, 195, 123, 0.3);
+    }
 }
 
 ._nizami {

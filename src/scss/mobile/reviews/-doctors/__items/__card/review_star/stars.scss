@@ -19,4 +19,13 @@
     background-size: contain;
     background-position: center center;
   }
+  
+  &_half{
+    width: 24px;
+    height: 24px;
+    background-image: url('/src/assets/svg/star_half_yellow.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+  }
 }

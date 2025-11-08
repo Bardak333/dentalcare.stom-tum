@@ -92,11 +92,38 @@
       line-height: 20px;
       letter-spacing: -0.5px;
       vertical-align: middle;
-      background-color: #FFFFFF;
       border-radius: 16px;
       border: none;
       text-wrap: nowrap;
       color: #2D2D2D;
+      margin-top: 19px;
+        background: linear-gradient(to right, #6fff8286 50%, #FFFFFF 50%);
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        background-size: 200% 100%;
+        transition: all 0.2s ease;
+
+        & div{
+          background: linear-gradient(to right, rgba(17, 179, 66, 0.658) 50%, rgba(92, 195, 123, 1) 50%);
+          background-position: right bottom;
+          background-repeat: no-repeat;
+          background-size: 200% 100%;
+          transition: all 0.2s ease;
+          border-radius: 8px;
+          width: 36px;
+          height: 36px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        &:hover{
+          background-position: left bottom;
+
+          & div{
+            background-position: left bottom;
+          }
+        }
   }
 
   &_btnIcon {

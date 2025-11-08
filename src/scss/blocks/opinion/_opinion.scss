@@ -1,0 +1,77 @@
+.opinion{
+    min-width: 500px;
+    min-height: 708px;
+    background-image: url("../../../assets/png/opinion/reward.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 25px;
+    box-shadow: 0px 8px 18px 0px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: transform, opacity, 0.5s ease-in-out;
+
+    &__btn-close{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    border: 0px;
+
+    &--img{
+      width: 18px;
+      height: 18px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center center;
+      &:nth-of-type(1){
+        background-image: url("../../../assets/svg/message/close-icon.svg");
+      }
+      &:nth-of-type(2){
+        background-image: url("../../../assets/svg/message/close-icon_white.svg");
+        display: none;
+      }
+      &:nth-of-type(3){
+        background-image: url("../../../assets/svg/message/close-icon_green.svg");
+        display: none;
+      }
+    }
+
+    &:hover{
+      background-color: rgba(30, 134, 62, 0.25);
+      & div{
+        &:nth-of-type(1){display: none}
+        &:nth-of-type(2){display: none}
+        &:nth-of-type(3){display: flex}
+      }
+    }
+
+    &:active{
+      background-color: rgba(30, 134, 62, 0.6);
+      & div{
+        &:nth-of-type(1){display: none}
+        &:nth-of-type(2){display: flex}
+        &:nth-of-type(3){display: none}
+      }
+    }
+  }
+
+  &.active{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .opinion{
+    min-width: 341px;
+    min-height: 484px;
+  }
+}
