@@ -1,29 +1,11 @@
 .header__nav {
 
     &_btn {
-        padding: 12px 16px;
-        background-color: #FFFFFF;
-        border: none;
-        border-radius: 16px;
-        cursor: pointer;
 
-        font-family: "Noto Sans", sans-serif;
-        font-weight: 500;
-        font-size: 12px;
-        letter-spacing: -0.5px;
-        color:#2D2D2D;
-    }
-
-    &_btnRight {
-      width: 94px;
-      padding: 12px 16px 12px 8px;
-      border-radius: 16px;
+      padding: 12px 16px;
+      background-color: #FFFFFF;
       border: none;
-      background-image: url('/src/assets/svg/btns/roundedBtn_right.svg');
-      background-color: #ffffff00;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: contain;
+      border-radius: 16px;
       cursor: pointer;
 
       font-family: "Noto Sans", sans-serif;
@@ -31,11 +13,65 @@
       font-size: 12px;
       letter-spacing: -0.5px;
       color:#2D2D2D;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+
+        background-color: #22833F26;
+        color: #22833F;
+      }
+
+      &:active {
+
+        background-color: #22833F;
+        color: #FFFFFF;
+      }
+
+      @media screen and (min-width: 1760px) {
+
+        font-size: 14px;
+      }
+    }
+
+    &_btnRight {
+      width: 94px;
+      padding: 12px 16px 12px 8px;
+      border: none;
+      background-image: url('/src/assets/svg/btns/roundedBtn_right.svg');
+      background-color: #ffffff00;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 500;
+      font-size: 12px;
+      letter-spacing: -0.5px;
+      color:#2D2D2D;
+
+      &:hover {
+
+        background-image: url('/src/assets/svg/btns/roundedBtn_right-hover.svg');
+        color: #22833F;
+      }
+
+      &:active {
+
+        background-image: url('/src/assets/svg/btns/roundedBtn_right-active.svg');
+        color: #ffffff;
+      }
+
+      @media screen and (min-width: 1760px) {
+
+        font-size: 14px;
+      }
     }
 
     &_btnLeft {
+
         padding: 12px 16px;
-        border-radius: 16px;
         border: none;
         background-image: url('/src/assets/svg/btns/roundedBtn_left.svg');
         background-color: #ffffff00;
@@ -43,11 +79,29 @@
         background-repeat: no-repeat;
         background-size: contain;
         cursor: pointer;
+      transition: all 0.2s ease-in-out;
 
         font-family: "Noto Sans", sans-serif;
         font-weight: 500;
         font-size: 12px;
         letter-spacing: -0.5px;
         color:#2D2D2D;
+
+      &:hover {
+
+        background-image: url('/src/assets/svg/btns/roundedBtn_left-hover.svg');
+        color: #22833F;
+      }
+
+      &:active {
+
+        background-image: url('/src/assets/svg/btns/roundedBtn_left-active.svg');
+        color: #ffffff;
+      }
+
+      @media screen and (min-width: 1760px) {
+
+        font-size: 14px;
+      }
     }
 }

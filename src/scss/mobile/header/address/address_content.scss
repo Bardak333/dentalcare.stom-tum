@@ -45,7 +45,7 @@
     &_list {
         width: 234px;
         position: absolute;
-        background-color: rgba(255, 255, 255, 0.5490196078);
+        background-color: #F7F6FB;
         transform: translateY(-200%);
         top: 30px;
         padding: 16px;
@@ -60,18 +60,19 @@
     }
 
     &_item {
-        border-radius: 16px;
-        border: none;
-        padding: 4px 0;
-        cursor: pointer;
-        transition: all 0.2s ease-in-out;
+      border-radius: 16px;
+      border: none;
+      padding: 4px 0;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
 
-        font-family: "Noto Sans", sans-serif;
-        font-weight: 500;
-        font-size: 14px;
-        letter-spacing: -0.5px;
-        vertical-align: middle;
-        color: #2D2D2D;
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      letter-spacing: -0.5px;
+      vertical-align: middle;
+      color: #2D2D2D;
+      background-color: rgba(247, 246, 251, 0);
     }
 
     &_item:hover {

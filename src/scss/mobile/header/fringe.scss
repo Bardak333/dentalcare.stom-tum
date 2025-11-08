@@ -37,10 +37,12 @@
     }
 }
 
-@media screen and (min-width: 1672px) {
+@media screen and (min-width: 1760px) {
     .fringe {
-        transform: translateY(-25px);
-        height: 80px;
+      transform: translateY(-25px);
+      height: 80px;
+      background-image: url("/src/assets/svg/fringe_desktop.svg");
+      max-width: 700px;
 
         &__logo {
             display: none;

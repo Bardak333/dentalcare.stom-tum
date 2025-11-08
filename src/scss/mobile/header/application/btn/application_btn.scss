@@ -1,11 +1,13 @@
 .header__application {
+
     &_btn {
-        font-family: "Noto Sans", sans-serif;
-        font-weight: 500;
-        font-style: Medium;
-        font-size: 12px;
-        letter-spacing: -0.5px;
-        vertical-align: middle;
+
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 500;
+      font-size: 12px;
+      letter-spacing: -0.5px;
+      vertical-align: middle;
+      transition: all 0.2s ease-in-out;
 
         padding: 12px 68px;
         background-color: #22833F;
@@ -16,6 +18,11 @@
         align-items: center;
         gap: 8px;
         cursor: pointer;
+
+      &:hover {
+
+        background-color: #5CC37B;
+      }
     }
 }
 

@@ -1,36 +1,36 @@
-const headerOpenAddressBtn = document.querySelector('.header__address_openList-btn');
+const headerOpenAddressBtn = document.querySelectorAll('.header__address_points');
+const headerAddressesList = document.querySelectorAll('.header__address_item');
 
-function openListAddress () {
+function openListAddress (index) {
 
-    const headerAddressList = document.querySelector('.header__address_list');
-    const screenWidth = document.documentElement.clientWidth;
+    const headerAddressList = document.querySelectorAll('.header__address_list');
+    console.log("Функция нажатия работает");
 
-    if (screenWidth >= 1672) {
+    headerAddressList[index].classList.toggle('address__openList');
 
-        if (headerAddressList.classList.contains('address__openList')) {
-
-            headerAddressList.classList.remove('address__openList');
-            headerAddressList.classList.toggle('address__openList_desktop');
-        }
-        else {
-
-            headerAddressList.classList.toggle('address__openList_desktop');
-        }
-
-    }
-    else {
-        
-        if (headerAddressList.classList.contains('address__openList_desktop')) {
-
-            headerAddressList.classList.remove('address__openList_desktop');
-            headerAddressList.classList.toggle('address__openList');
-
-        }
-        else {
-
-            headerAddressList.classList.toggle('address__openList');
-        }
-    }
 }
 
-headerOpenAddressBtn.addEventListener ('click', openListAddress);
+function selectedAddress (index) {
+
+    console.log("Выбор адреса работает");
+    const addressText = document.querySelectorAll('.header__address_text');
+    const headerAddressesList = document.querySelectorAll('.header__address_item');
+
+    addressText.forEach((item) => {
+
+        item.textContent = headerAddressesList[index].textContent;
+    })
+}
+
+// headerOpenAddressBtn.addEventListener ('click', openListAddress);
+
+headerOpenAddressBtn.forEach((item, index) => {
+
+    item.addEventListener('click', () => openListAddress(index));
+});
+
+headerAddressesList.forEach((item, index) => {
+
+    item.addEventListener('click', () => selectedAddress(index));
+})
+

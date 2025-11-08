@@ -1,9 +1,10 @@
 .header__mobileMenu {
     
-    display: block;
-    transition: all 0.3s ease-in-out;
-    transform: translateY(-120%);
-    background-color: #ffffff;
+  display: block;
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-120%);
+  background-color: #ffffff;
+  padding-top: 20px;
 
     &_address {
         display: flex;
