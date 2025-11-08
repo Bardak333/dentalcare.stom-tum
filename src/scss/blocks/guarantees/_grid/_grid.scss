@@ -89,6 +89,17 @@
     }
 }
 
+@media (min-width: 1590px) {
+    .guarantees{
+        &__grid{
+           grid-template-columns: auto auto auto auto;
+            grid-template-rows: unset;
+            grid-template-areas: 
+            "gar1 gar2 gar3 gar4";
+        }
+    }
+}
+
 
 @media (max-width: 1195px) {
     .guarantees{

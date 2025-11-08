@@ -35,6 +35,11 @@
     }
 }
 
+@media (min-width: 1667px) {
+    .request__block--btn{
+        bottom: -25px;
+    }
+}
 
 @media (max-width: 420px) {
     .request__block--btn{

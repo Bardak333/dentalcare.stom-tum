@@ -5,7 +5,8 @@
     gap: 6px;
     align-items: center;
     justify-content: center;
-    background-color: #685DF9;
+    // background-color: #685DF9;
+    
     margin: 0 -10px;
     border: none;
     border-radius: 0 32px 0 16px;
@@ -16,20 +17,48 @@
     letter-spacing: -0.5px;
     vertical-align: middle;
     color: #FFF;
+    
+
 
     &_icon {
 
         width: 36px;
         height: 36px;
-        background-color: #FFFFFF26;
-        background-image: url(/src/assets/svg/btns/arrow_right.svg);
-        background-position: center center;
+        background: linear-gradient(to right, #6357ff 50%, #FFFFFF26 50%);
+        background-position: right bottom;
         background-repeat: no-repeat;
-        background-size: 24px;
+        background-size: 200% 100%;
+        transition: all 0.2s ease;
         border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 8px;
+
+        & img{
+            width: 100%;
+            height: auto;
+        }
+
 
     }
 
+}
+
+.btnBlueAnimate{
+    background: linear-gradient(to right, #524ac7 50%, #685DF9 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: 0.2s all ease;
+
+    &:hover {
+
+        background-position: left bottom;
+
+        & .main__applicationBtn_icon {
+            background-position: left bottom;
+        }
+    }
 }
 
 @media screen and (min-width: 1194px) {
