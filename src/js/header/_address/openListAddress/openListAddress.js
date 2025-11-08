@@ -4,10 +4,14 @@ const headerAddressesList = document.querySelectorAll('.header__address_item');
 function openListAddress (index) {
 
     const headerAddressList = document.querySelectorAll('.header__address_list');
-    console.log("Функция нажатия работает");
+    const addressBtn = document.querySelectorAll('.header__address_btn');
 
     headerAddressList[index].classList.toggle('address__openList');
 
+    addressBtn.forEach((item) => {
+
+        item.classList.toggle('address_active');
+    })
 }
 
 function selectedAddress (index) {
@@ -16,10 +20,12 @@ function selectedAddress (index) {
     const addressText = document.querySelectorAll('.header__address_text');
     const headerAddressesList = document.querySelectorAll('.header__address_item');
 
+
     addressText.forEach((item) => {
 
         item.textContent = headerAddressesList[index].textContent;
     })
+
 }
 
 // headerOpenAddressBtn.addEventListener ('click', openListAddress);

@@ -20,17 +20,15 @@
 
     width: 100%;
     height: 190px;
-    background-image: url("/src/assets/png/pacients/pacient1_mobile.png");
+    background-image: url("/src/assets/png/pacients/pacient1.png");
     background-repeat: no-repeat;
-    background-size: 148px 190px;
+    background-size: contain;
     background-position: center left;
     position: relative;
 
     @media screen and (min-width: 1194px) {
 
       width: 540px;
-      background-image: url("/src/assets/png/pacients/pacient1_laptop.png");
-      background-size: 178px 190px;
     }
   }
 
