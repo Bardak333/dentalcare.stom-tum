@@ -11,6 +11,12 @@
     border-radius: 16px;
     max-width: 330px;
     padding: 10px 10px 112px;
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+    &:hover{
+      box-shadow: 0px 26px 32px 0px rgba(0, 0, 0, 0.15);
+      transform: scale(103%);
+    }
 
     @media screen and (min-width: 1194px) {
 

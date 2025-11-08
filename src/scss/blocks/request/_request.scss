@@ -26,6 +26,14 @@
     }
 }
 
+@media (min-width: 1590px) {
+    .request{
+        &__img{
+            min-width: 812px;
+        }
+    }
+}
+
 @media (max-width: 1195px) {
     .request{
         &__img{

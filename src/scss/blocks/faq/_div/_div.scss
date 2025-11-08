@@ -35,6 +35,17 @@
     }
 }
 
+@media (min-width: 1590px) {
+    .faq__number{
+        margin: 0px auto;
+
+        &--text{
+            text-align: center;
+        }
+    }
+}
+
+
 @media (max-width: 1194px) {
     .faq{
         &__number{

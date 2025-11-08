@@ -43,6 +43,14 @@
     }
 }
 
+@media (min-width: 1590px) {
+    .request{
+        &__block{
+            min-width: 812px;
+        }
+    }
+}
+
 @media (max-width: 536px) {
     .request{
         &__block{

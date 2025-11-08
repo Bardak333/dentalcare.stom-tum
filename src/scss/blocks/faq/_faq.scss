@@ -11,6 +11,7 @@
         align-items: center;
         justify-content: center;
         padding: 50px 0px;
+        width: 100%;
     }
 
     &__block{
@@ -26,6 +27,13 @@
         grid-template-areas: 
         "text text img"
         "btn div img";
+    }
+}
+
+@media (min-width: 1590px) {
+    .faq__block{
+        width: 100%;
+        grid-template-columns: 1fr 1fr auto;
     }
 }
 

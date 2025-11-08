@@ -21,6 +21,13 @@
     }
 }
 
+@media (min-width: 1590px) {
+    .faq__img{
+        min-width: 428px;
+    }
+}
+
+
 @media (max-width: 390px) {
     .faq{
         &__img{

@@ -2,7 +2,6 @@
     width: 100%;
     border-radius: 16px;
     padding: 10px 16px;
-    background-color: rgba(92, 195, 123, 0.15);
     border: 1px solid rgba(92, 195, 123, 0);
     display: flex;
     justify-content: center;
@@ -19,6 +18,33 @@
 
     &1{
         margin-top: 19px;
+        background: linear-gradient(to right, rgba(31, 255, 31, 0.356) 50%, rgba(92, 195, 123, 0.15) 50%);
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        background-size: 200% 100%;
+        transition: all 0.2s ease;
+
+        & div{
+          background: linear-gradient(to right, rgba(93, 196, 124, 0.658) 50%, rgba(92, 195, 123, 1) 50%);
+          background-position: right bottom;
+          background-repeat: no-repeat;
+          background-size: 200% 100%;
+          transition: all 0.2s ease;
+          border-radius: 8px;
+          width: 36px;
+          height: 36px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        &:hover{
+          background-position: left bottom;
+
+          & div{
+            background-position: left bottom;
+          }
+        }
     }
 
     &2{

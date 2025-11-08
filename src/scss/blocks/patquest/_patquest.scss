@@ -31,6 +31,14 @@
     }
 }
 
+@media (min-width: 1590px) {
+    .patquest{
+        &__title{
+            padding: 14px 0px;
+        }
+    }
+}
+
 @media (max-width: 1199px) {
     .patquest{
         display: none;
