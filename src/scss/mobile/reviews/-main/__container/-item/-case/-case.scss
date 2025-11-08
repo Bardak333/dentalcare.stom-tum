@@ -281,6 +281,11 @@
   }
 }
 
+.closeVideo {
+
+  background-image: url("/src/assets/svg/btns/videoClose.svg");
+}
+
 .review_videoActive {
 
   transform: scale(160%) translateY(2px);
@@ -299,6 +304,6 @@
 
     width: 30px;
     height: 30px;
-    background-size: 10px;
+    background-size: 12px;
   }
 }
