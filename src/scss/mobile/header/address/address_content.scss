@@ -5,12 +5,19 @@
 
     &_logo {
 
-    width: 230px;
-    height: 51px;
-    background-image: url(/src/assets/svg/logo.svg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
+      width: 230px;
+      height: 51px;
+      background-image: url(/src/assets/svg/logo.svg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+
+        background-image: url(/src/assets/svg/logo_hover.svg);
+      }
     }
 
     &_points {

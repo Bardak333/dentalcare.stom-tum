@@ -41,3 +41,11 @@
     grid-area: navBtns;
   }
 }
+
+#footer_nav-faq {
+
+  @media screen and (max-width: 1194px) {
+
+    display: none;
+  }
+}

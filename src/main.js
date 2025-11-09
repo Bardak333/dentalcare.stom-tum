@@ -3,11 +3,12 @@ import './js/header/_address/openListAddress/openListAddress.js'
 import './js/header/__mobileMenu/openMobilemenu';
 import './js/reviews/_doctors/doctorsScroll.js';
 import './js/reviews/_items/reviewsScroll.js';
-
 import './js/quiz/quiz.js';
 import './js/request/request.js';
 import './js/message/message.js';
 import './js/opinion/opinion.js';
-
-
 import './js/reviews/video/videoOpen.js';
+import './js/header/nav/headerNav.js';
+import './js/footer/footerNav.js';
+import './js/header/__mobileMenu/mobileNav.js';
+import './js/scrolltoApplication.js';

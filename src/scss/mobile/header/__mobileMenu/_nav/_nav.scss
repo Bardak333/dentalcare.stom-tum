@@ -45,3 +45,11 @@
         width: 100%;
     }
 }
+
+#mobile_nav-faq {
+
+  @media screen and (max-width: 1193px) {
+
+    display: none;
+  }
+}

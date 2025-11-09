@@ -6,6 +6,11 @@
   align-items: center;
   gap: 16px;
 
+  @media screen and (max-width: 1193px) {
+
+    margin-top: 10px;
+  }
+
   &_btns {
     width: 100%;
     display: flex;
@@ -25,6 +30,7 @@
     border: none;
     border-radius: 25px;
     color: #FFFFFF;
+    transition: all 0.2s ease-in-out;
 
     font-family: "Noto Sans", sans-serif;
     font-weight: 500;
@@ -32,6 +38,11 @@
     line-height: 16px;
     letter-spacing: -0.5px;
     vertical-align: middle;
+
+    &:hover {
+
+      background-color: #5CC37B;
+    }
 
     .footer-btn-phone {
 

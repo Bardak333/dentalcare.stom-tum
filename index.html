@@ -31,32 +31,32 @@
           <div class="header__mobileMenu_nav">
             <ul class="header__mobileMenu_nav-list">
                 <li class="header__mobileMenu_nav-item">
-                  <button class="header__mobileMenu_nav-btn">
+                  <button class="header__mobileMenu_nav-btn" id="mobile_nav-services">
                     Услуги
                   </button>
                 </li>
                 <li class="header__mobileMenu_nav-item">
-                  <button class="header__mobileMenu_nav-btn">
+                  <button class="header__mobileMenu_nav-btn" id="mobile_nav-reviews">
                     Отзывы
                   </button>
                 </li>
                 <li class="header__mobileMenu_nav-item">
-                  <button class="header__mobileMenu_nav-btn">
+                  <button class="header__mobileMenu_nav-btn" id="mobile_nav-prices">
                     Цены
                   </button>
                 </li>
                 <li class="header__mobileMenu_nav-item">
-                  <button class="header__mobileMenu_nav-btn">
+                  <button class="header__mobileMenu_nav-btn" id="mobile_nav-specialists">
                     Специалисты
                   </button>
                 </li>
                 <li class="header__mobileMenu_nav-item">
-                  <button class="header__mobileMenu_nav-btn">
+                  <button class="header__mobileMenu_nav-btn" id="mobile_nav-faq">
                     FAQ
                   </button>
                 </li>
                 <li class="header__mobileMenu_nav-item">
-                  <button class="header__mobileMenu_nav-btn">
+                  <button class="header__mobileMenu_nav-btn" id="mobile_nav-contacts">
                     Контакты
                   </button>
                 </li>
@@ -112,9 +112,7 @@
               </div>
             </div>
           </div>
-          <div class="roundedSquare_left"></div>
-          <div class="roundedSquare_right"></div>
-          <button class="header__phoneBtn"></button>
+          <a class="header__phoneBtn" href="tel:+7 3452 60 82 47"></a>
           <div class="fringe">
             <a href="#" class="fringe__logo">
               <img src="./src/assets/svg/logo.svg" alt="Ультра-Дент стоматология" class="fringe__logo_svg">
@@ -122,32 +120,32 @@
             <nav class="header__nav">
               <ul class="header__nav_list">
                 <li class="header__nav_item">
-                  <button class="header__nav_btnLeft">
+                  <button class="header__nav_btnLeft" id="header_nav-services">
                     Услуги
                   </button>
                 </li>
                 <li class="header__nav_item">
-                  <button class="header__nav_btn">
+                  <button class="header__nav_btn" id="header_nav-reviews">
                     Отзывы
                   </button>
                 </li>
                 <li class="header__nav_item">
-                  <button class="header__nav_btn">
+                  <button class="header__nav_btn" id="header_nav-prices">
                     Цены
                   </button>
                 </li>
                 <li class="header__nav_item">
-                  <button class="header__nav_btn">
+                  <button class="header__nav_btn" id="header_nav-specialists">
                     Специалисты
                   </button>
                 </li>
                 <li class="header__nav_item">
-                  <button class="header__nav_btn">
+                  <button class="header__nav_btn" id="header_nav-faq">
                     FAQ
                   </button>
                 </li>
                 <li class="header__nav_item">
-                  <button class="header__nav_btnRight">
+                  <button class="header__nav_btnRight" id="header_nav-contacts">
                     Контакты
                   </button>
                 </li>
@@ -156,10 +154,10 @@
           </div>
           <button class="header__menuBtn"></button>
           <div class="header__application">
-            <button class="header__application_btn">
+            <a class="header__application_btn" href="tel:+7 3452 60 82 47">
               <div class="header__application_phoneIcon"></div>
               Обратный звонок
-            </button>
+            </a>
             <div class="header__block">
               <ul class="header__block_links">
                 <li class="header__block_item">
@@ -188,6 +186,7 @@
         </div>
       </div>
     </header>
+
     <div class="main">
       <div class="container">
         <div class="main__content">
@@ -310,6 +309,7 @@
         </div>
       </div>
     </div>
+
     <div class="help">
         <div class="container">
             <div class="help__content">
@@ -365,6 +365,7 @@
             </div>
         </div>
     </div>
+
     <div class="reviews">
         <div class="container">
             <div class="reviews__content">
@@ -609,7 +610,7 @@
                                         </div>
                                         <div class="main-item__case_youtube"></div>
                                         <div class="main-item__case_view">
-                                            <video id="reviewVideo" src="src/assets/videos/review1_Video.mp4" controls></video>
+                                            <video class="reviewVideo" src="src/assets/videos/review1_Video.mp4" controls></video>
                                             <div class="openVideo"></div>
                                         </div>
                                     </div>
@@ -687,7 +688,10 @@
                                             <div class="item-case__before_photo1-after"></div>
                                         </div>
                                         <div class="main-item__case_youtube"></div>
-                                        <div class="main-item__case_view"></div>
+                                        <div class="main-item__case_view">
+                                            <video class="reviewVideo" src="src/assets/videos/review1_Video.mp4" controls></video>
+                                            <div class="openVideo"></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -763,7 +767,10 @@
                                             <div class="item-case__before_photo1-after"></div>
                                         </div>
                                         <div class="main-item__case_youtube"></div>
-                                        <div class="main-item__case_view"></div>
+                                        <div class="main-item__case_view">
+                                            <video class="reviewVideo" src="src/assets/videos/review1_Video.mp4" controls></video>
+                                            <div class="openVideo"></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -778,6 +785,7 @@
             </div>
         </div>
     </div>
+
     <div class="calculation">
         <div class="container">
             <div class="calculation__content">
@@ -1287,7 +1295,6 @@
       </div>
     </div>
 
-    
     <div class="footer">
         <div class="container">
             <div class="footer__content">
@@ -1297,10 +1304,10 @@
                 <div class="footer__main">
                     <div class="footer__feedback">
                         <div class="footer__feedback_btns">
-                            <button class="footer__feedback_btn-phone">
+                            <a class="footer__feedback_btn-phone" href="tel:+7 3452 60 82 47">
                                 <div class="header__mobileMenu_application-phoneIcon footer-btn-phone"></div>
                                 Обратная связь
-                            </button>
+                            </a>
                             <a class="footer__feedback_btn-vk"></a>
                             <a class="footer__feedback_btn-tg"></a>
                             <a class="footer__feedback_btn-whatsapp"></a>
@@ -1318,32 +1325,32 @@
                     <div class="footer__nav">
                         <ul class="footer__nav-list">
                             <li class="header__mobileMenu_nav-item">
-                                <button class="footer__nav-btn">
+                                <button class="footer__nav-btn" id="footer_nav-services">
                                     Услуги
                                 </button>
                             </li>
                             <li class="header__mobileMenu_nav-item">
-                                <button class="footer__nav-btn">
+                                <button class="footer__nav-btn" id="footer_nav-reviews">
                                     Отзывы
                                 </button>
                             </li>
                             <li class="header__mobileMenu_nav-item">
-                                <button class="footer__nav-btn">
+                                <button class="footer__nav-btn" id="footer_nav-prices">
                                     Цены
                                 </button>
                             </li>
                             <li class="header__mobileMenu_nav-item">
-                                <button class="footer__nav-btn">
+                                <button class="footer__nav-btn" id="footer_nav-specialists">
                                     Специалисты
                                 </button>
                             </li>
                             <li class="header__mobileMenu_nav-item">
-                                <button class="footer__nav-btn">
+                                <button class="footer__nav-btn" id="footer_nav-faq">
                                     FAQ
                                 </button>
                             </li>
                             <li class="header__mobileMenu_nav-item">
-                                <button class="footer__nav-btn">
+                                <button class="footer__nav-btn" id="footer_nav-contacts">
                                     Контакты
                                 </button>
                             </li>
@@ -1374,7 +1381,7 @@
                     </div>
                 </div>
                 <div class="footer__fringe">
-                    <a href="#" class="footer__fringe_link"></a>
+                    <div class="footer__fringe_link"></div>
                 </div>
             </div>
         </div>
