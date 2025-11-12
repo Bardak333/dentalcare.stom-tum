@@ -85,12 +85,39 @@
 
   &__flag {
 
-    width: 241px;
-    height: 49px;
-    background-image: url("/src/assets/png/calculation/flag_South_Korea.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: contain;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+
+    &-SouthKorea {
+
+      width: 83px;
+      height: 63px;
+      background-image: url("/src/assets/png/calculation/flag_southKorea.png");
+      background-position: center center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    &-Brazil {
+
+      width: 58px;
+      height: 63px;
+      background-image: url("/src/assets/png/calculation/flag_brazil.png");
+      background-position: center center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    &-Switzerland {
+
+      width: 69px;
+      height: 63px;
+      background-image: url("/src/assets/png/calculation/flag_Switzerland.png");
+      background-position: center center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
   }
 
   &__list {

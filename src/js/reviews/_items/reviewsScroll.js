@@ -87,3 +87,76 @@ btnBack.forEach(btn => {
 
     btn.addEventListener("click", scrollBack);
 })
+
+const reviewsPhotos = document.querySelectorAll('.runningLine__item');
+const reviewsPhotosDuplicates = document.querySelectorAll('.runningLine__item_duplicated');
+
+function reviewPhotoView (index) {
+
+    caseCount = index;
+    const cases = document.querySelectorAll('.reviews-main__item');
+    cases[caseCount].scrollIntoView({
+        behavior: 'smooth',
+        inline: 'start',
+        block: 'nearest'
+    });
+    updateButtons();
+}
+
+function updateButtons() {
+
+    const cases = document.querySelectorAll('.reviews-main__item');
+
+    if (caseCount === 0) {
+
+        btnBack.forEach(btn => {
+            btn.classList.remove("_btn_common");
+            btn.classList.add("_btn_unactive");
+        })
+        btnNext.forEach(btn => {
+            btn.classList.remove("_btn_unactive");
+            btn.classList.add('_btn_common');
+        })
+    }
+    else if (caseCount === cases.length - 1) {
+
+        btnNext.forEach(btn => {
+            btn.classList.remove('_btn_common');
+            btn.classList.add("_btn_unactive");
+        })
+        btnBack.forEach(btn => {
+            btn.classList.add("_btn_common");
+            btn.classList.remove("_btn_unactive");
+        })
+    }
+    else {
+
+        btnNext.forEach(btn => {
+            btn.classList.remove("_btn_unactive");
+            btn.classList.add('_btn_common');
+        })
+
+        btnBack.forEach(btn => {
+            btn.classList.remove("_btn_unactive");
+            btn.classList.add("_btn_common");
+        })
+    }
+}
+
+reviewsPhotos.forEach((photo, index) => {
+
+    photo.addEventListener("click", () => {
+
+        caseCount = index;
+        reviewPhotoView(index);
+    });
+});
+
+reviewsPhotosDuplicates.forEach((photo, index) => {
+
+    photo.addEventListener("click", () => {
+
+        caseCount = index;
+        reviewPhotoView(index);
+    });
+});
