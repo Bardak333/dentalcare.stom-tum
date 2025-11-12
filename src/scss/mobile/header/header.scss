@@ -10,15 +10,11 @@
 
     &__content {
         padding: 0 10px 10px;
-      // background-color: rgb(229 229 229 / 30%);
-      //   border-radius: 12px 12px 16px 16px;
         display: flex;
         justify-content: space-between;
         position: relative;
-        // backdrop-filter: blur(10px);
         max-width: 500px;
         margin: 0 auto;
-        // box-shadow: 0 8px 18px 0 #0000001A;
     }
 
     &__container {
@@ -32,7 +28,7 @@
     .header {
         &__content {
           padding: 20px 20px 5px;
-          max-width: 1920px;
+          max-width: 1194px;
         }
     }
 }
@@ -45,34 +41,7 @@
           background-color: unset;
           border-radius: unset;
           box-shadow:  unset;
+          max-width: 1691px;
         }
     }
 }
-
-.roundedSquare_left {
-    background-image: url(/src/assets/svg/rounded_square.svg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 22px;
-    height: 22px;
-    position: absolute;
-    z-index: 100;
-    left: 0;
-    top: 0;
-}
-
-.roundedSquare_right {
-    background-image: url(/src/assets/svg/rounded_square.svg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 22px;
-    height: 22px;
-    position: absolute;
-    z-index: 100;
-    right: 0px;
-    top: 0;
-    transform: rotate(90deg);
-}
-
