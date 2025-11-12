@@ -28,7 +28,12 @@
                 grid-area: item2; 
                 align-items: center; 
                 padding-top: 86px; 
-                gap: 60px;}
+                gap: 60px;
+                
+                & .patquest__message-window--question--avatar{
+                    background-image: url("../../../../assets/png/patquest/avatar1.png") !important;
+                }
+            }
         }
 
         &--itemBG{

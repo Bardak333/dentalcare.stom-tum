@@ -33,6 +33,6 @@ function toggleBackblur3(){
 
 }
 
-if (!check){ setTimeout(toggleBackblur3, 5000); }
+if (!check){ setTimeout(toggleBackblur3, 60000); }
 
 

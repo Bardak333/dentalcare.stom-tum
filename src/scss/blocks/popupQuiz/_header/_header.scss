@@ -58,3 +58,31 @@
         }
     }
 }
+
+@media (max-width: 730px) {
+    .popupQuiz{
+        &__header-text1{
+            left: 36px;
+            font-size: 14px;
+            padding: 4px 16px;
+        }
+
+        &__header-text2{
+            font-size: 14px;
+            padding: 4px 16px;
+            right: 36px;
+        }
+    }
+}
+
+@media (max-width: 364px) {
+    .popupQuiz{
+        &__header-text1{
+            left: 25px;  
+        }
+
+        &__header-text2{
+            right: 25px; 
+        }
+    }
+}

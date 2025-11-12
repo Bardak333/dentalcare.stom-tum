@@ -47,8 +47,19 @@
 @media (max-width: 730px) {
     .popupQuiz{
         width: 361px;
-        padding: 6px;
-        padding-bottom: 0px;
+        padding: 66px 6px 0px 6px;
+        gap: 16px;
+
+        & a{
+            width: calc(100% + 12px);
+        }
+    }
+}
+
+@media (max-width: 364px) {
+    .popupQuiz{
+        width: calc(100dvw - 32px);
+        padding: 66px 6px 0px 6px;
         gap: 16px;
 
         & a{

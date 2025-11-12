@@ -3,5 +3,10 @@
         width: 165px;
         height: 50px;
         grid-area: prorok;
+
+        &--link{
+            width: fit-content;
+            height: fit-content;
+        }
     }
 }

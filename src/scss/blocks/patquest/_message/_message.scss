@@ -25,7 +25,6 @@
                 min-width: 28px;
                 min-height: 28px;
                 border-radius: 50%;
-                background-image: url("../../../../assets/png/patquest/avatar.png");
                 background-position: center center;
                 background-repeat: no-repeat;
                 background-size: cover;
@@ -88,5 +87,22 @@
                 }
             }
         }
+
+        &:nth-of-type(1){
+            & .patquest__message-window--question--avatar{
+                background-image: url("../../../../assets/png/patquest/avatar2.jpg");
+            }
+        }
+        &:nth-of-type(2){
+            & .patquest__message-window--question--avatar{
+                background-image: url("../../../../assets/png/patquest/avatar4.png");
+            }
+        }
+        &:nth-of-type(3){
+            & .patquest__message-window--question--avatar{
+                background-image: url("../../../../assets/png/patquest/avatar3.png");
+            }
+        }
+        
     }
 }

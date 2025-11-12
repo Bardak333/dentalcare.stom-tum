@@ -37,3 +37,18 @@
     }
 }
 
+@media (max-width: 730px) {
+    .popupQuiz{
+        &__title{
+            &--text{
+                font-size: 24px;
+
+            }
+
+            &--p{
+                font-size: 16px;
+                line-height: 140%;
+            }
+        } 
+    }
+}
