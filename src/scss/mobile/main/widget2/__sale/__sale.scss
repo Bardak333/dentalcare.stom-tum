@@ -96,12 +96,11 @@
       border: none;
       text-wrap: nowrap;
       color: #2D2D2D;
-      margin-top: 19px;
-        background: linear-gradient(to right, #6fff8286 50%, #FFFFFF 50%);
-        background-position: right bottom;
-        background-repeat: no-repeat;
-        background-size: 200% 100%;
-        transition: all 0.2s ease;
+      background: linear-gradient(to right, #6fff8286 50%, #FFFFFF 50%);
+      background-position: right bottom;
+      background-repeat: no-repeat;
+      background-size: 200% 100%;
+      transition: all 0.2s ease;
 
         & div{
           background: linear-gradient(to right, rgba(17, 179, 66, 0.658) 50%, rgba(92, 195, 123, 1) 50%);
