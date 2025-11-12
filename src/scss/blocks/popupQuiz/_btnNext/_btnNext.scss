@@ -1,0 +1,32 @@
+.popupQuiz{
+    &__btnNext{
+        width: 100%;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        padding: 16px 35px;
+        background-color: rgba(104, 93, 249, 1);
+        position: relative;
+        bottom: -32px;
+        display: flex;
+        gap: 6px;
+        border: 0px;
+        align-items: center;
+        justify-content: center;
+
+        font-family: 'Noto-sans', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: -0.5px;
+        color: rgba(255, 255, 255, 1);
+    }
+}
+
+@media (max-width: 1194px) {
+    .popupQuiz{
+        &__btnNext{
+            bottom: 0px;
+        }
+    }
+}
+

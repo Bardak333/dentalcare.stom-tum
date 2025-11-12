@@ -1,6 +1,8 @@
 @use './_btn-close/btn-close';
 @use './_header/header';
 @use './_text/text';
+@use './_btnNext/btnNext';
+@use './_img/img';
 
 .popupQuiz{
     height: auto;
@@ -17,10 +19,40 @@
     position: relative;
     opacity: 0;
     visibility: hidden;
+    z-index: 2;
 
     &.active{
         transform: translateY(0px);
         opacity: 1;
         visibility: visible;
+        transition: all 0.5s ease-out;
+    }
+
+    & .quiz__title-decorate_opac{
+        min-width: 75px;
+    }
+
+    & a{
+        width: calc(100% + 64px);
+    }
+}
+
+@media (max-width: 1194px) {
+    .popupQuiz{
+        width: 691px;
+        padding-bottom: 0px;
+    }
+}
+
+@media (max-width: 730px) {
+    .popupQuiz{
+        width: 361px;
+        padding: 6px;
+        padding-bottom: 0px;
+        gap: 16px;
+
+        & a{
+            width: calc(100% + 12px);
+        }
     }
 }

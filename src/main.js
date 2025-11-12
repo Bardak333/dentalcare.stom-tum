@@ -12,3 +12,4 @@ import './js/header/nav/headerNav.js';
 import './js/footer/footerNav.js';
 import './js/header/__mobileMenu/mobileNav.js';
 import './js/scrolltoApplication.js';
+import './js/popupQuiz/popupQuiz.js';

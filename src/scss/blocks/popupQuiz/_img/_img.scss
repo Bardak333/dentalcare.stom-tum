@@ -1,0 +1,23 @@
+.popupQuiz{
+    &__doctor{
+        width: 543px;
+        height: 815px;
+        position: absolute;
+        bottom: 0px;
+        transform: translateX(100dvw);
+        z-index: 1;
+
+        &.active{
+            transform: translateX(629px);
+            transition: all 0.5s ease-out 0.4s;
+        }
+    }
+}
+
+@media (max-width: 1462px) {
+    .popupQuiz{
+        &__doctor{
+            display: none;
+        }
+    }
+}
