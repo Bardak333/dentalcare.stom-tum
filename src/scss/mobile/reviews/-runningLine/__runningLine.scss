@@ -3,6 +3,9 @@
   height: 240px;
   display: flex;
   align-items: center;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  width: 100vw;
 
   @media screen and (max-width: 1193px) {
 
@@ -48,7 +51,7 @@
       &:hover {
 
         transform: scale(105%) translateY(-10px);
-        box-shadow: 0 15px 8px 0 #00000026;
+        box-shadow: 0 10px 8px 0 #00000026;
       }
     }
   }
