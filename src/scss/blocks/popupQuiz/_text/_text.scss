@@ -1,0 +1,24 @@
+.popupQuiz{
+    &__title{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        &--text{
+            text-align: center;
+            font-family: 'Noto-sans', sans-serif;
+            font-size: 36px;
+            font-weight: 800;
+            line-height: 36px;
+            letter-spacing: -1px;
+
+            &_whiteGreen{
+                color: rgba(92, 195, 123, 1);
+            }
+
+            &_darkGreen{
+                color: rgba(34, 131, 63, 1);
+            }
+        }
+    }
+}
