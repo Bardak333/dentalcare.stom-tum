@@ -71,6 +71,7 @@
 @use './mobile/reviews/-main/__container/-item/-item.scss' as *;
 @use './mobile/reviews/-main/__container/_container.scss' as *;
 @use './mobile/reviews/-main/__container/-item/-case/-case.scss' as *;
+@use "./mobile/reviews/-runningLine/_runningLine";
 
 @use './mobile/calculation/calculation.scss' as *;
 @use './mobile/calculation/__block/_block.scss' as *;

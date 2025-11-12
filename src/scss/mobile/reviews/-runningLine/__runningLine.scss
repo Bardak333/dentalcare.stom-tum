@@ -1,0 +1,70 @@
+.reviews-companies__runningLine {
+  overflow: hidden;
+  height: 240px;
+  display: flex;
+  align-items: center;
+
+  @media screen and (max-width: 1193px) {
+
+    display: none;
+  }
+
+  &__content {
+    display: flex;
+    gap: 25px;
+    width: max-content;
+    animation: runningLine 30s linear infinite;
+
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
+}
+
+.runningLine {
+
+  &__item {
+
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    height: 191px;
+    border-radius: 16px;
+
+    &:hover {
+
+      transform: scale(105%) translateY(-10px);
+      box-shadow: 0 10px 8px 0 #00000026;
+    }
+
+    &_duplicated {
+
+      flex-shrink: 0;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      height: 191px;
+      border-radius: 16px;
+
+      &:hover {
+
+        transform: scale(105%) translateY(-10px);
+        box-shadow: 0 15px 8px 0 #00000026;
+      }
+    }
+  }
+
+  &__img {
+    height: 191px;
+    width: 191px;
+    object-fit: cover;
+  }
+}
+
+@keyframes runningLine {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

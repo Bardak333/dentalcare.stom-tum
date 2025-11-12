@@ -1,7 +1,7 @@
 .patquest{
     &__mainBlock{
         width: 1162px;
-        height: auto;
+        height: 835px;
         background: radial-gradient(75.94% 81.81% at 21.47% 26.7%, #5CC37B 0%, #52D97A 100%);
         display: grid;
         border-radius: 16px;
@@ -50,8 +50,8 @@
             padding: 35px;
 
             &--itemBG{
-                min-width: 553px;
-                min-height: 331px;
+                min-width: 700px;
+                min-height: 400px;
             }
 
             &--item{
