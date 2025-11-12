@@ -36,8 +36,16 @@
       grid-template-areas: 
       "infoBlock infoBlock"
       "license navBtns"
-      "license cookie"
+      "prorok cookie"
       "infoText infoText";
+    }
+  }
+}
+
+@media (max-width: 394px) {
+  .footer{
+    &__main{
+      width: 100dvw;
     }
   }
 }

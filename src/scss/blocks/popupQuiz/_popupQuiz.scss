@@ -1,0 +1,25 @@
+@use './_btn-close/btn-close';
+@use './_header/header';
+
+.popupQuiz{
+    height: auto;
+    width: 1094px;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 30px;
+    padding: 32px;
+    padding-top: 108px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    position: relative;
+    opacity: 0;
+    visibility: hidden;
+
+    &.active{
+        transform: translateY(0px);
+        opacity: 1;
+        visibility: visible;
+    }
+}

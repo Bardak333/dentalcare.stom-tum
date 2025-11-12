@@ -10,10 +10,16 @@
         border-radius: 25px 0 0 25px;
         border: none;
 
-        position: absolute;
+        position: fixed;
         z-index: 100;
-        top: -85px;
-        right: -26px;
+        top: 70%;
+        right: 0px;
+
+        animation-name: pulseBtnPhone;
+        animation-duration: 30s;
+        animation-fill-mode: both;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
     }
 
     @media screen and (min-width: 1194px) {
@@ -36,4 +42,58 @@
         background-color: #00000000;
     }
 
+}
+
+@keyframes pulseBtnPhone {
+    0%{
+        transform: translateX(100px);
+    }
+    50%{
+        transform: translateX(100px);
+    }
+    51%{
+        transform: translateX(0px);
+    }
+    60%{
+        transform: translateX(0px);
+    }
+    61%{
+        transform: translateX(5px);
+    }
+    62%{
+        transform: translateX(0px);
+    }
+    70%{
+        transform: translateX(0px);
+    }
+    71%{
+        transform: translateX(5px);
+    }
+    72%{
+        transform: translateX(0px);
+    }
+    80%{
+        transform: translateX(0px);
+    }
+    81%{
+        transform: translateX(5px);
+    }
+    82%{
+        transform: translateX(0px);
+    }
+    90%{
+        transform: translateX(0px);
+    }
+    91%{
+        transform: translateX(5px);
+    }
+    92%{
+        transform: translateX(0px);
+    }
+    99%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(100px);
+    }
 }

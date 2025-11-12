@@ -135,3 +135,11 @@
     }
   }
 }
+
+@media (max-width: 394px) {
+  .footer{
+    &__feedback_btn-phone{
+      padding: 12px 45px;
+    }
+  }
+}
